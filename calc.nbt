@@ -1,0 +1,2 @@
+let result = 8*m/4*km
+print(result)

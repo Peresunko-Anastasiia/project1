@@ -1,0 +1,612 @@
+2025-04-08 18:02:38,492 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-08 18:02:38,492 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 18:02:38,495 - INFO -  * Restarting with stat
+2025-04-08 18:02:39,146 - WARNING -  * Debugger is active!
+2025-04-08 18:02:39,159 - INFO -  * Debugger PIN: 815-900-523
+2025-04-08 18:03:07,741 - INFO - 127.0.0.1 - - [08/Apr/2025 18:03:07] "GET / HTTP/1.1" 200 -
+2025-04-08 18:14:18,529 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-08 18:14:18,654 - INFO -  * Restarting with stat
+2025-04-08 18:18:41,586 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-08 18:18:41,595 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 18:18:41,600 - INFO -  * Restarting with stat
+2025-04-08 18:18:43,427 - WARNING -  * Debugger is active!
+2025-04-08 18:18:43,441 - INFO -  * Debugger PIN: 815-900-523
+2025-04-08 18:22:29,255 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-08 18:22:29,255 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 18:22:29,255 - INFO -  * Restarting with stat
+2025-04-08 18:22:30,700 - WARNING -  * Debugger is active!
+2025-04-08 18:22:30,704 - INFO -  * Debugger PIN: 815-900-523
+2025-04-08 22:05:12,749 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-08 22:05:12,749 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 22:05:12,749 - INFO -  * Restarting with stat
+2025-04-08 22:05:13,568 - WARNING -  * Debugger is active!
+2025-04-08 22:05:13,580 - INFO -  * Debugger PIN: 815-900-523
+2025-04-08 22:06:36,146 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-08 22:06:36,146 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 22:06:36,152 - INFO -  * Restarting with stat
+2025-04-08 22:06:36,975 - WARNING -  * Debugger is active!
+2025-04-08 22:06:36,975 - INFO -  * Debugger PIN: 815-900-523
+2025-04-08 22:06:42,024 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-08 22:06:42,107 - INFO -  * Restarting with stat
+2025-04-08 22:06:42,941 - WARNING -  * Debugger is active!
+2025-04-08 22:06:42,958 - INFO -  * Debugger PIN: 815-900-523
+2025-04-08 22:09:24,220 - INFO - 127.0.0.1 - - [08/Apr/2025 22:09:24] "GET / HTTP/1.1" 200 -
+2025-04-08 22:12:11,749 - INFO - 127.0.0.1 - - [08/Apr/2025 22:12:11] "GET / HTTP/1.1" 200 -
+2025-04-08 22:12:16,825 - INFO - 127.0.0.1 - - [08/Apr/2025 22:12:16] "GET / HTTP/1.1" 200 -
+2025-04-08 22:15:23,802 - INFO - 127.0.0.1 - - [08/Apr/2025 22:15:23] "GET / HTTP/1.1" 200 -
+2025-04-08 22:15:43,195 - INFO - 127.0.0.1 - - [08/Apr/2025 22:15:43] "POST /plot HTTP/1.1" 200 -
+2025-04-08 22:15:43,307 - INFO - 127.0.0.1 - - [08/Apr/2025 22:15:43] "GET /static/plots/0ecf2a92970a461398d03b36e773d8af.png HTTP/1.1" 200 -
+2025-04-08 22:15:56,128 - INFO - 127.0.0.1 - - [08/Apr/2025 22:15:56] "POST /plot HTTP/1.1" 200 -
+2025-04-08 22:15:56,153 - INFO - 127.0.0.1 - - [08/Apr/2025 22:15:56] "GET /static/plots/c7741fe153c544afafa4817c90b9d297.png HTTP/1.1" 200 -
+2025-04-08 22:18:42,392 - INFO - 127.0.0.1 - - [08/Apr/2025 22:18:42] "POST /plot HTTP/1.1" 200 -
+2025-04-08 22:18:42,419 - INFO - 127.0.0.1 - - [08/Apr/2025 22:18:42] "GET /static/plots/d98039e501d84530b93cd9746a2c60c8.png HTTP/1.1" 200 -
+2025-04-08 22:20:58,207 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-08 22:20:58,207 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 22:20:58,211 - INFO -  * Restarting with stat
+2025-04-08 22:20:59,050 - WARNING -  * Debugger is active!
+2025-04-08 22:20:59,050 - INFO -  * Debugger PIN: 815-900-523
+2025-04-08 22:21:06,031 - INFO - 127.0.0.1 - - [08/Apr/2025 22:21:06] "POST /plot HTTP/1.1" 200 -
+2025-04-08 22:21:06,128 - INFO - 127.0.0.1 - - [08/Apr/2025 22:21:06] "GET /static/plots/4e64f9cf7a6d407994b516c513071a0a.png HTTP/1.1" 200 -
+2025-04-08 22:21:33,870 - INFO - 127.0.0.1 - - [08/Apr/2025 22:21:33] "POST /plot HTTP/1.1" 200 -
+2025-04-08 22:35:40,399 - INFO - 127.0.0.1 - - [08/Apr/2025 22:35:40] "POST /plot HTTP/1.1" 200 -
+2025-04-08 22:35:40,431 - INFO - 127.0.0.1 - - [08/Apr/2025 22:35:40] "GET /static/plots/932bbb85095a480aa2355dfe9376c508.png HTTP/1.1" 200 -
+2025-04-08 22:36:04,313 - INFO - 127.0.0.1 - - [08/Apr/2025 22:36:04] "POST /plot HTTP/1.1" 200 -
+2025-04-09 09:56:38,649 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-09 10:08:37,747 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-09 10:08:37,747 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-09 10:08:37,747 - INFO -  * Restarting with stat
+2025-04-09 10:08:38,237 - WARNING -  * Debugger is active!
+2025-04-09 10:08:38,237 - INFO -  * Debugger PIN: 815-900-523
+2025-04-09 10:09:22,493 - INFO - 127.0.0.1 - - [09/Apr/2025 10:09:22] "GET / HTTP/1.1" 200 -
+2025-04-09 10:09:22,562 - INFO - 127.0.0.1 - - [09/Apr/2025 10:09:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-09 10:09:40,812 - INFO - 127.0.0.1 - - [09/Apr/2025 10:09:40] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:33:27,889 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-09 20:33:27,896 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-09 20:33:27,900 - INFO -  * Restarting with stat
+2025-04-09 20:33:29,479 - WARNING -  * Debugger is active!
+2025-04-09 20:33:29,495 - INFO -  * Debugger PIN: 815-900-523
+2025-04-09 20:33:53,500 - INFO - 127.0.0.1 - - [09/Apr/2025 20:33:53] "GET / HTTP/1.1" 200 -
+2025-04-09 20:34:07,819 - INFO - 127.0.0.1 - - [09/Apr/2025 20:34:07] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:34:10,031 - INFO - 127.0.0.1 - - [09/Apr/2025 20:34:10] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:34:15,150 - INFO - 127.0.0.1 - - [09/Apr/2025 20:34:15] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:34:16,586 - INFO - 127.0.0.1 - - [09/Apr/2025 20:34:16] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:34:25,563 - INFO - 127.0.0.1 - - [09/Apr/2025 20:34:25] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:34:26,303 - INFO - 127.0.0.1 - - [09/Apr/2025 20:34:26] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:34:26,924 - INFO - 127.0.0.1 - - [09/Apr/2025 20:34:26] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:34:27,178 - INFO - 127.0.0.1 - - [09/Apr/2025 20:34:27] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:34:32,320 - INFO - 127.0.0.1 - - [09/Apr/2025 20:34:32] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:34:32,521 - INFO - 127.0.0.1 - - [09/Apr/2025 20:34:32] "GET /static/plots/bbbf7bf440834fec9cfc993b336f9b04.png HTTP/1.1" 200 -
+2025-04-09 20:36:40,915 - INFO - 127.0.0.1 - - [09/Apr/2025 20:36:40] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:36:40,926 - INFO - 127.0.0.1 - - [09/Apr/2025 20:36:40] "GET /static/plots/3e98b45ff50b4c109d230ee3de842fb3.png HTTP/1.1" 200 -
+2025-04-09 20:36:48,217 - INFO - 127.0.0.1 - - [09/Apr/2025 20:36:48] "POST /plot HTTP/1.1" 200 -
+2025-04-09 20:36:48,227 - INFO - 127.0.0.1 - - [09/Apr/2025 20:36:48] "GET /static/plots/f47e2cf48e604a229c99074c1271e61b.png HTTP/1.1" 200 -
+2025-04-09 20:38:31,612 - ERROR - Помилка виконання: [0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:16
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = E [0m[31m=[0m h * f
+  [0m[36m│[0m                [0m[31m^[0m [0m[31mTrailing '=' sign. Use `let letresult=E = …` if you intended to define a new constant.[0m
+
+[0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:25
+  [0m[36m│[0m  
+[0m[36m1[0m [0m[36m│[0m   let result = E = h * f
+  [0m[36m│[0m [0m[31m╭[0m[0m[31m──────────────────────^[0m
+[0m[36m2[0m [0m[36m│[0m [0m[31m│[0m 
+  [0m[36m│[0m [0m[31m╰[0m[0m[31m^ Expected one of: number, identifier, parenthesized expression, struct instantiation, list[0m
+
+Interpreter stopped
+2025-04-09 20:38:31,615 - INFO - 127.0.0.1 - - [09/Apr/2025 20:38:31] "POST / HTTP/1.1" 200 -
+2025-04-09 20:38:55,378 - ERROR - Помилка виконання: [0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:40
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 0.5 * m * v^2 + m * g * h [0m[31m=[0m const
+  [0m[36m│[0m                                        [0m[31m^[0m [0m[31mTrailing '=' sign. Use `let letresult=0.5*m*v^2+m*g*h = …` if you intended to define a new constant.[0m
+
+[0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:49
+  [0m[36m│[0m  
+[0m[36m1[0m [0m[36m│[0m   let result = 0.5 * m * v^2 + m * g * h = const
+  [0m[36m│[0m [0m[31m╭[0m[0m[31m──────────────────────────────────────────────^[0m
+[0m[36m2[0m [0m[36m│[0m [0m[31m│[0m 
+  [0m[36m│[0m [0m[31m╰[0m[0m[31m^ Expected one of: number, identifier, parenthesized expression, struct instantiation, list[0m
+
+Interpreter stopped
+2025-04-09 20:38:55,378 - INFO - 127.0.0.1 - - [09/Apr/2025 20:38:55] "POST / HTTP/1.1" 200 -
+2025-04-10 11:38:38,789 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 11:38:38,789 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 11:38:38,789 - INFO -  * Restarting with stat
+2025-04-10 11:38:39,321 - WARNING -  * Debugger is active!
+2025-04-10 11:38:39,324 - INFO -  * Debugger PIN: 815-900-523
+2025-04-10 11:39:30,277 - INFO - 127.0.0.1 - - [10/Apr/2025 11:39:30] "GET / HTTP/1.1" 200 -
+2025-04-10 11:39:30,481 - INFO - 127.0.0.1 - - [10/Apr/2025 11:39:30] "GET / HTTP/1.1" 200 -
+2025-04-10 11:40:01,454 - INFO - 127.0.0.1 - - [10/Apr/2025 11:40:01] "GET / HTTP/1.1" 200 -
+2025-04-10 12:04:36,932 - INFO - 127.0.0.1 - - [10/Apr/2025 12:04:36] "GET / HTTP/1.1" 200 -
+2025-04-10 12:04:36,949 - INFO - 127.0.0.1 - - [10/Apr/2025 12:04:36] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-10 12:05:08,047 - INFO - 127.0.0.1 - - [10/Apr/2025 12:05:08] "GET / HTTP/1.1" 200 -
+2025-04-10 12:05:08,071 - INFO - 127.0.0.1 - - [10/Apr/2025 12:05:08] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-10 12:05:10,206 - INFO - 127.0.0.1 - - [10/Apr/2025 12:05:10] "GET / HTTP/1.1" 200 -
+2025-04-10 12:05:10,222 - INFO - 127.0.0.1 - - [10/Apr/2025 12:05:10] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-10 12:05:11,213 - INFO - 127.0.0.1 - - [10/Apr/2025 12:05:11] "GET / HTTP/1.1" 200 -
+2025-04-10 12:05:11,236 - INFO - 127.0.0.1 - - [10/Apr/2025 12:05:11] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-10 12:08:16,546 - INFO - 127.0.0.1 - - [10/Apr/2025 12:08:16] "GET / HTTP/1.1" 200 -
+2025-04-10 12:08:16,618 - INFO - 127.0.0.1 - - [10/Apr/2025 12:08:16] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-10 12:09:40,559 - INFO - 127.0.0.1 - - [10/Apr/2025 12:09:40] "GET / HTTP/1.1" 200 -
+2025-04-10 12:12:59,464 - INFO - Обчислення: let result = 3km + 6mm
+print(result) | Результат: 3.00001 km
+2025-04-10 12:12:59,464 - INFO - 127.0.0.1 - - [10/Apr/2025 12:12:59] "POST / HTTP/1.1" 200 -
+2025-04-10 12:13:29,031 - INFO - Обчислення: let result = 7m + 7km
+print(result) | Результат: 7007 m
+2025-04-10 12:13:29,032 - INFO - 127.0.0.1 - - [10/Apr/2025 12:13:29] "POST / HTTP/1.1" 200 -
+2025-04-10 12:14:04,584 - INFO - 127.0.0.1 - - [10/Apr/2025 12:14:04] "POST /plot HTTP/1.1" 200 -
+2025-04-10 12:14:16,560 - INFO - 127.0.0.1 - - [10/Apr/2025 12:14:16] "POST /plot HTTP/1.1" 200 -
+2025-04-10 12:14:16,564 - INFO - 127.0.0.1 - - [10/Apr/2025 12:14:16] "GET /static/plots/dace62d9488a4e17abc1cfb11fb3776a.png HTTP/1.1" 200 -
+2025-04-10 13:25:50,187 - ERROR - Помилка виконання: [0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:40
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 0.5 * m * v^2 + m * g * h [0m[31m=[0m const
+  [0m[36m│[0m                                        [0m[31m^[0m [0m[31mTrailing '=' sign. Use `let letresult=0.5*m*v^2+m*g*h = …` if you intended to define a new constant.[0m
+
+[0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:49
+  [0m[36m│[0m  
+[0m[36m1[0m [0m[36m│[0m   let result = 0.5 * m * v^2 + m * g * h = const
+  [0m[36m│[0m [0m[31m╭[0m[0m[31m──────────────────────────────────────────────^[0m
+[0m[36m2[0m [0m[36m│[0m [0m[31m│[0m 
+  [0m[36m│[0m [0m[31m╰[0m[0m[31m^ Expected one of: number, identifier, parenthesized expression, struct instantiation, list[0m
+
+Interpreter stopped
+2025-04-10 13:25:50,187 - INFO - 127.0.0.1 - - [10/Apr/2025 13:25:50] "POST / HTTP/1.1" 200 -
+2025-04-10 13:26:47,917 - ERROR - Помилка виконання: [0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:40
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 0.5 * m * v^2 + m * g * h [0m[31m=[0m const
+  [0m[36m│[0m                                        [0m[31m^[0m [0m[31mTrailing '=' sign. Use `let letresult=0.5*m*v^2+m*g*h = …` if you intended to define a new constant.[0m
+
+[0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:49
+  [0m[36m│[0m  
+[0m[36m1[0m [0m[36m│[0m   let result = 0.5 * m * v^2 + m * g * h = const
+  [0m[36m│[0m [0m[31m╭[0m[0m[31m──────────────────────────────────────────────^[0m
+[0m[36m2[0m [0m[36m│[0m [0m[31m│[0m 
+  [0m[36m│[0m [0m[31m╰[0m[0m[31m^ Expected one of: number, identifier, parenthesized expression, struct instantiation, list[0m
+
+Interpreter stopped
+2025-04-10 13:26:47,917 - INFO - 127.0.0.1 - - [10/Apr/2025 13:26:47] "POST / HTTP/1.1" 200 -
+2025-04-10 13:26:50,500 - ERROR - Помилка виконання: [0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:40
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 0.5 * m * v^2 + m * g * h [0m[31m=[0m const
+  [0m[36m│[0m                                        [0m[31m^[0m [0m[31mTrailing '=' sign. Use `let letresult=0.5*m*v^2+m*g*h = …` if you intended to define a new constant.[0m
+
+[0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:49
+  [0m[36m│[0m  
+[0m[36m1[0m [0m[36m│[0m   let result = 0.5 * m * v^2 + m * g * h = const
+  [0m[36m│[0m [0m[31m╭[0m[0m[31m──────────────────────────────────────────────^[0m
+[0m[36m2[0m [0m[36m│[0m [0m[31m│[0m 
+  [0m[36m│[0m [0m[31m╰[0m[0m[31m^ Expected one of: number, identifier, parenthesized expression, struct instantiation, list[0m
+
+Interpreter stopped
+2025-04-10 13:26:50,500 - INFO - 127.0.0.1 - - [10/Apr/2025 13:26:50] "POST / HTTP/1.1" 200 -
+2025-04-10 13:30:41,677 - INFO - 127.0.0.1 - - [10/Apr/2025 13:30:41] "POST /plot HTTP/1.1" 200 -
+2025-04-10 13:30:41,690 - INFO - 127.0.0.1 - - [10/Apr/2025 13:30:41] "GET /static/plots/65699481228b4fd1909fcfe16cc0eab3.png HTTP/1.1" 200 -
+2025-04-10 13:31:23,626 - INFO - 127.0.0.1 - - [10/Apr/2025 13:31:23] "POST /plot HTTP/1.1" 200 -
+2025-04-10 13:31:23,630 - INFO - 127.0.0.1 - - [10/Apr/2025 13:31:23] "GET /static/plots/0ae177a933b748fd972105eb9cae5674.png HTTP/1.1" 200 -
+2025-04-10 13:33:08,889 - INFO - 127.0.0.1 - - [10/Apr/2025 13:33:08] "POST /plot HTTP/1.1" 200 -
+2025-04-10 13:33:08,905 - INFO - 127.0.0.1 - - [10/Apr/2025 13:33:08] "GET /static/plots/9d17e853dfa6427e90da5a6914aac1ce.png HTTP/1.1" 200 -
+2025-04-10 14:41:09,549 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 14:41:09,549 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 14:41:09,550 - INFO -  * Restarting with stat
+2025-04-10 14:41:10,373 - WARNING -  * Debugger is active!
+2025-04-10 14:41:10,378 - INFO -  * Debugger PIN: 815-900-523
+2025-04-10 14:41:25,310 - INFO - 127.0.0.1 - - [10/Apr/2025 14:41:25] "GET / HTTP/1.1" 200 -
+2025-04-10 15:32:45,810 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 15:32:45,810 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 15:32:45,811 - INFO -  * Restarting with stat
+2025-04-10 15:32:46,331 - WARNING -  * Debugger is active!
+2025-04-10 15:32:46,334 - INFO -  * Debugger PIN: 815-900-523
+2025-04-10 15:32:53,388 - INFO - 127.0.0.1 - - [10/Apr/2025 15:32:53] "GET / HTTP/1.1" 200 -
+2025-04-10 15:32:53,444 - INFO - 127.0.0.1 - - [10/Apr/2025 15:32:53] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-10 15:35:45,853 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-10 15:35:45,949 - INFO -  * Restarting with stat
+2025-04-10 15:37:04,131 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 15:37:04,131 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 15:37:04,132 - INFO -  * Restarting with stat
+2025-04-10 15:37:04,644 - WARNING -  * Debugger is active!
+2025-04-10 15:37:04,648 - INFO -  * Debugger PIN: 815-900-523
+2025-04-10 15:37:05,572 - INFO - 127.0.0.1 - - [10/Apr/2025 15:37:05] "GET / HTTP/1.1" 200 -
+2025-04-10 15:37:18,733 - INFO - 127.0.0.1 - - [10/Apr/2025 15:37:18] "GET / HTTP/1.1" 200 -
+2025-04-10 17:22:29,796 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 17:22:29,796 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 17:22:29,797 - INFO -  * Restarting with stat
+2025-04-10 17:22:30,292 - WARNING -  * Debugger is active!
+2025-04-10 17:22:30,294 - INFO -  * Debugger PIN: 815-900-523
+2025-04-10 17:22:38,122 - INFO - 127.0.0.1 - - [10/Apr/2025 17:22:38] "GET / HTTP/1.1" 200 -
+2025-04-10 17:23:45,015 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 17:23:45,015 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 17:23:45,016 - INFO -  * Restarting with stat
+2025-04-10 17:23:45,523 - WARNING -  * Debugger is active!
+2025-04-10 17:23:45,527 - INFO -  * Debugger PIN: 815-900-523
+2025-04-10 17:23:59,530 - INFO - 127.0.0.1 - - [10/Apr/2025 17:23:59] "GET / HTTP/1.1" 200 -
+2025-04-10 17:24:23,016 - INFO - 127.0.0.1 - - [10/Apr/2025 17:24:23] "POST /plot HTTP/1.1" 200 -
+2025-04-10 17:24:23,065 - INFO - 127.0.0.1 - - [10/Apr/2025 17:24:23] "GET /static/plots/b6943226dca1435c8daaa01598e3b0a1.png HTTP/1.1" 200 -
+2025-04-10 17:27:32,653 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 17:27:32,653 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 17:27:32,655 - INFO -  * Restarting with stat
+2025-04-10 17:27:33,171 - WARNING -  * Debugger is active!
+2025-04-10 17:27:33,175 - INFO -  * Debugger PIN: 815-900-523
+2025-04-10 17:29:22,127 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 17:29:22,128 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 17:29:22,129 - INFO -  * Restarting with stat
+2025-04-10 17:29:22,641 - WARNING -  * Debugger is active!
+2025-04-10 17:29:22,644 - INFO -  * Debugger PIN: 815-900-523
+2025-04-10 17:29:29,363 - INFO - 127.0.0.1 - - [10/Apr/2025 17:29:29] "GET / HTTP/1.1" 200 -
+2025-04-10 17:30:09,342 - INFO - 127.0.0.1 - - [10/Apr/2025 17:30:09] "POST /plot HTTP/1.1" 200 -
+2025-04-10 17:30:09,392 - INFO - 127.0.0.1 - - [10/Apr/2025 17:30:09] "GET /static/plots/726b2aacd021475f8e85e456fd2ee2fd.png HTTP/1.1" 200 -
+2025-04-10 17:38:50,070 - INFO - 127.0.0.1 - - [10/Apr/2025 17:38:50] "GET / HTTP/1.1" 200 -
+2025-04-10 17:39:15,091 - INFO - 127.0.0.1 - - [10/Apr/2025 17:39:15] "POST /plot HTTP/1.1" 200 -
+2025-04-10 17:39:15,096 - INFO - 127.0.0.1 - - [10/Apr/2025 17:39:15] "GET /static/plots/41bb21dbb10a445ea22d8276197a7d49.png HTTP/1.1" 200 -
+2025-04-10 17:47:28,345 - INFO - Обчислення: let result = 5m + 7km
+
+
+print(result) | Результат: 7005 m
+2025-04-10 17:47:28,346 - INFO - 127.0.0.1 - - [10/Apr/2025 17:47:28] "POST / HTTP/1.1" 200 -
+2025-04-10 19:18:57,645 - INFO - 127.0.0.1 - - [10/Apr/2025 19:18:57] "POST /plot HTTP/1.1" 200 -
+2025-04-10 19:18:57,662 - INFO - 127.0.0.1 - - [10/Apr/2025 19:18:57] "GET /static/plots/448ce31493cc4c56a19724013ec8bb71.png HTTP/1.1" 200 -
+2025-04-12 17:59:15,779 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 17:59:15,779 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 17:59:15,779 - INFO -  * Restarting with stat
+2025-04-12 17:59:17,464 - WARNING -  * Debugger is active!
+2025-04-12 17:59:17,481 - INFO -  * Debugger PIN: 815-900-523
+2025-04-12 17:59:23,663 - INFO - 127.0.0.1 - - [12/Apr/2025 17:59:23] "GET / HTTP/1.1" 200 -
+2025-04-12 18:03:09,359 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-12 18:03:09,546 - INFO -  * Restarting with stat
+2025-04-12 18:07:14,160 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 18:07:14,160 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 18:07:14,169 - INFO -  * Restarting with stat
+2025-04-12 18:07:16,215 - WARNING -  * Debugger is active!
+2025-04-12 18:07:16,223 - INFO -  * Debugger PIN: 815-900-523
+2025-04-12 18:07:23,703 - INFO - 127.0.0.1 - - [12/Apr/2025 18:07:23] "GET / HTTP/1.1" 200 -
+2025-04-12 18:15:05,601 - INFO - 127.0.0.1 - - [12/Apr/2025 18:15:05] "GET / HTTP/1.1" 200 -
+2025-04-15 16:32:39,102 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 16:32:39,103 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 16:32:39,104 - INFO -  * Restarting with stat
+2025-04-15 16:32:40,420 - WARNING -  * Debugger is active!
+2025-04-15 16:32:40,420 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 16:32:48,057 - INFO - 127.0.0.1 - - [15/Apr/2025 16:32:48] "GET / HTTP/1.1" 200 -
+2025-04-15 16:38:59,967 - INFO - 127.0.0.1 - - [15/Apr/2025 16:38:59] "GET / HTTP/1.1" 200 -
+2025-04-15 16:44:45,308 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-15 16:44:45,432 - INFO -  * Restarting with stat
+2025-04-15 16:44:46,222 - WARNING -  * Debugger is active!
+2025-04-15 16:44:46,222 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 16:44:47,251 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-15 16:44:47,378 - INFO -  * Restarting with stat
+2025-04-15 16:44:48,192 - WARNING -  * Debugger is active!
+2025-04-15 16:44:48,195 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 16:44:49,210 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-15 16:44:49,328 - INFO -  * Restarting with stat
+2025-04-15 16:44:50,118 - WARNING -  * Debugger is active!
+2025-04-15 16:44:50,119 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 16:45:00,666 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 16:45:00,666 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 16:45:00,666 - INFO -  * Restarting with stat
+2025-04-15 16:45:02,014 - WARNING -  * Debugger is active!
+2025-04-15 16:45:02,014 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 16:45:09,961 - INFO - 127.0.0.1 - - [15/Apr/2025 16:45:09] "GET / HTTP/1.1" 200 -
+2025-04-15 16:45:24,259 - ERROR - Помилка виконання: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:14
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = [0m[31mа5[0m-4м
+  [0m[36m│[0m              [0m[31m^^[0m [0m[31munknown identifier[0m
+
+Interpreter stopped
+2025-04-15 16:45:24,259 - INFO - 127.0.0.1 - - [15/Apr/2025 16:45:24] "POST / HTTP/1.1" 200 -
+2025-04-15 16:45:38,585 - ERROR - Помилка виконання: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:15
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 5[0m[31mкм[0m-6м
+  [0m[36m│[0m               [0m[31m^^[0m [0m[31munknown identifier[0m
+  [0m[36m│[0m
+  [0m[36m=[0m Did you mean '⅒'?
+
+Interpreter stopped
+2025-04-15 16:45:38,585 - INFO - 127.0.0.1 - - [15/Apr/2025 16:45:38] "POST / HTTP/1.1" 200 -
+2025-04-15 16:54:12,329 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-15 16:54:18,081 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 16:54:18,081 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 16:54:18,082 - INFO -  * Restarting with stat
+2025-04-15 16:54:19,435 - WARNING -  * Debugger is active!
+2025-04-15 16:54:19,435 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 16:54:26,474 - INFO - 127.0.0.1 - - [15/Apr/2025 16:54:26] "GET / HTTP/1.1" 200 -
+2025-04-15 16:54:44,250 - INFO - 127.0.0.1 - - [15/Apr/2025 16:54:44] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-04-15 16:55:05,632 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-15 16:55:05,759 - INFO -  * Restarting with stat
+2025-04-15 16:55:06,535 - WARNING -  * Debugger is active!
+2025-04-15 16:55:06,538 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 16:55:13,316 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 16:55:13,316 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 16:55:13,316 - INFO -  * Restarting with stat
+2025-04-15 16:55:14,128 - WARNING -  * Debugger is active!
+2025-04-15 16:55:14,144 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 16:55:24,876 - INFO - 127.0.0.1 - - [15/Apr/2025 16:55:24] "GET / HTTP/1.1" 200 -
+2025-04-15 16:55:35,656 - ERROR - Помилка виконання: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:15
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 4[0m[31mкм[0m - 3м
+  [0m[36m│[0m               [0m[31m^^[0m [0m[31munknown identifier[0m
+  [0m[36m│[0m
+  [0m[36m=[0m Did you mean 'ly'?
+
+Interpreter stopped
+2025-04-15 16:55:35,657 - INFO - 127.0.0.1 - - [15/Apr/2025 16:55:35] "POST / HTTP/1.1" 200 -
+2025-04-15 16:55:41,267 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-15 16:55:41,402 - INFO -  * Restarting with stat
+2025-04-15 16:55:42,700 - WARNING -  * Debugger is active!
+2025-04-15 16:55:42,715 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 17:03:41,394 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 17:03:41,394 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 17:03:41,394 - INFO -  * Restarting with stat
+2025-04-15 17:03:42,716 - WARNING -  * Debugger is active!
+2025-04-15 17:03:42,720 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 17:03:53,604 - INFO - 127.0.0.1 - - [15/Apr/2025 17:03:53] "GET / HTTP/1.1" 200 -
+2025-04-15 17:04:06,412 - INFO - Обчислення: let result = 5m+6km
+
+
+print(result) | Результат: 6005 m
+2025-04-15 17:04:06,412 - INFO - 127.0.0.1 - - [15/Apr/2025 17:04:06] "POST / HTTP/1.1" 200 -
+2025-04-15 17:04:17,891 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-15 17:04:18,031 - INFO -  * Restarting with stat
+2025-04-15 17:04:19,348 - WARNING -  * Debugger is active!
+2025-04-15 17:04:19,348 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 17:04:20,381 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-15 17:04:20,549 - INFO -  * Restarting with stat
+2025-04-15 17:04:36,307 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 17:04:36,307 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 17:04:36,307 - INFO -  * Restarting with stat
+2025-04-15 17:04:37,612 - WARNING -  * Debugger is active!
+2025-04-15 17:04:37,617 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 17:04:42,459 - INFO - Обчислення: let result = 5m+6km
+
+
+print(result) | Результат: 6005 m
+2025-04-15 17:04:42,459 - INFO - 127.0.0.1 - - [15/Apr/2025 17:04:42] "POST / HTTP/1.1" 200 -
+2025-04-15 17:05:05,379 - ERROR - Помилка виконання: [0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:20
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 6km+5m[0m[31m=[0m
+  [0m[36m│[0m                    [0m[31m^[0m [0m[31mTrailing '=' sign. Use `let letresult=6km+5m = …` if you intended to define a new constant.[0m
+
+[0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:23
+  [0m[36m│[0m  
+[0m[36m1[0m [0m[36m│[0m   let result = 6km+5m=
+  [0m[36m│[0m [0m[31m╭[0m[0m[31m────────────────────^[0m
+[0m[36m2[0m [0m[36m│[0m [0m[31m│[0m 
+  [0m[36m│[0m [0m[31m╰[0m[0m[31m^ Expected one of: number, identifier, parenthesized expression, struct instantiation, list[0m
+
+Interpreter stopped
+2025-04-15 17:05:05,379 - INFO - 127.0.0.1 - - [15/Apr/2025 17:05:05] "POST / HTTP/1.1" 200 -
+2025-04-15 17:05:12,790 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-15 17:05:12,949 - INFO -  * Restarting with stat
+2025-04-15 17:05:13,789 - WARNING -  * Debugger is active!
+2025-04-15 17:05:13,803 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 17:08:42,352 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 17:08:42,352 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 17:08:42,353 - INFO -  * Restarting with stat
+2025-04-15 17:08:43,671 - WARNING -  * Debugger is active!
+2025-04-15 17:08:43,671 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 17:08:51,089 - ERROR - Помилка виконання: [0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:20
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 6km+5m[0m[31m=[0m
+  [0m[36m│[0m                    [0m[31m^[0m [0m[31mTrailing '=' sign. Use `let letresult=6km+5m = …` if you intended to define a new constant.[0m
+
+[0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:23
+  [0m[36m│[0m  
+[0m[36m1[0m [0m[36m│[0m   let result = 6km+5m=
+  [0m[36m│[0m [0m[31m╭[0m[0m[31m────────────────────^[0m
+[0m[36m2[0m [0m[36m│[0m [0m[31m│[0m 
+  [0m[36m│[0m [0m[31m╰[0m[0m[31m^ Expected one of: number, identifier, parenthesized expression, struct instantiation, list[0m
+
+Interpreter stopped
+2025-04-15 17:08:51,094 - INFO - 127.0.0.1 - - [15/Apr/2025 17:08:51] "POST / HTTP/1.1" 200 -
+2025-04-15 17:09:11,069 - INFO - Обчислення: let result = 6m-6km
+
+
+print(result) | Результат: -5994 m
+2025-04-15 17:09:11,070 - INFO - 127.0.0.1 - - [15/Apr/2025 17:09:11] "POST / HTTP/1.1" 200 -
+2025-04-15 17:09:18,854 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-15 17:09:18,994 - INFO -  * Restarting with stat
+2025-04-15 17:09:19,819 - WARNING -  * Debugger is active!
+2025-04-15 17:09:19,819 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 17:09:20,853 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-15 17:09:20,949 - INFO -  * Restarting with stat
+2025-04-15 17:09:26,920 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 17:09:26,920 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 17:09:26,921 - INFO -  * Restarting with stat
+2025-04-15 17:09:27,763 - WARNING -  * Debugger is active!
+2025-04-15 17:09:27,768 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 17:09:31,051 - WARNING -  * Debugger is active!
+2025-04-15 17:09:31,051 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 17:09:31,148 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 17:09:31,148 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 17:09:31,148 - INFO -  * Restarting with stat
+2025-04-15 17:09:31,981 - WARNING -  * Debugger is active!
+2025-04-15 17:09:31,981 - INFO -  * Debugger PIN: 815-900-523
+2025-04-15 17:09:45,510 - INFO - Обчислення: let result = 6m-6km
+
+
+print(result) | Результат: -5994 m
+2025-04-15 17:09:45,526 - INFO - 127.0.0.1 - - [15/Apr/2025 17:09:45] "POST / HTTP/1.1" 200 -
+2025-04-15 17:09:53,081 - INFO - Обчислення: let result = 6-5
+
+
+print(result) | Результат: 1
+2025-04-15 17:09:53,081 - INFO - 127.0.0.1 - - [15/Apr/2025 17:09:53] "POST / HTTP/1.1" 200 -
+2025-04-18 10:22:59,432 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-18 10:22:59,432 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 10:22:59,432 - INFO -  * Restarting with stat
+2025-04-18 10:23:00,998 - WARNING -  * Debugger is active!
+2025-04-18 10:23:01,006 - INFO -  * Debugger PIN: 815-900-523
+2025-04-18 10:23:09,200 - INFO - 127.0.0.1 - - [18/Apr/2025 10:23:09] "GET / HTTP/1.1" 200 -
+2025-04-18 10:23:10,245 - INFO - 127.0.0.1 - - [18/Apr/2025 10:23:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-18 10:23:30,364 - INFO - 127.0.0.1 - - [18/Apr/2025 10:23:30] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-18 10:23:33,932 - INFO - 127.0.0.1 - - [18/Apr/2025 10:23:33] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-18 10:23:48,012 - INFO - 127.0.0.1 - - [18/Apr/2025 10:23:48] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-18 10:23:56,573 - INFO - 127.0.0.1 - - [18/Apr/2025 10:23:56] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-18 10:23:57,347 - INFO - 127.0.0.1 - - [18/Apr/2025 10:23:57] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-18 10:24:00,872 - INFO - 127.0.0.1 - - [18/Apr/2025 10:24:00] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-18 10:24:01,476 - INFO - 127.0.0.1 - - [18/Apr/2025 10:24:01] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-18 10:24:01,896 - INFO - 127.0.0.1 - - [18/Apr/2025 10:24:01] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-18 10:27:19,244 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-18 10:27:19,246 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 10:27:19,248 - INFO -  * Restarting with stat
+2025-04-18 10:27:20,818 - WARNING -  * Debugger is active!
+2025-04-18 10:27:20,827 - INFO -  * Debugger PIN: 815-900-523
+2025-04-18 10:27:29,938 - INFO - 127.0.0.1 - - [18/Apr/2025 10:27:29] "GET / HTTP/1.1" 200 -
+2025-04-18 10:28:03,862 - INFO - 127.0.0.1 - - [18/Apr/2025 10:28:03] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:18:17,605 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-19 14:18:17,714 - INFO -  * Restarting with stat
+2025-04-19 14:18:22,017 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:18:22,017 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 14:18:22,020 - INFO -  * Restarting with stat
+2025-04-19 14:18:22,843 - WARNING -  * Debugger is active!
+2025-04-19 14:18:22,847 - INFO -  * Debugger PIN: 815-900-523
+2025-04-19 14:18:29,705 - INFO - 127.0.0.1 - - [19/Apr/2025 14:18:29] "GET / HTTP/1.1" 200 -
+2025-04-19 14:18:46,367 - INFO - 127.0.0.1 - - [19/Apr/2025 14:18:46] "[31m[1mPOST /solve HTTP/1.1[0m" 415 -
+2025-04-19 14:20:18,164 - INFO - 127.0.0.1 - - [19/Apr/2025 14:20:18] "[31m[1mPOST /solve HTTP/1.1[0m" 415 -
+2025-04-19 14:20:19,210 - INFO - 127.0.0.1 - - [19/Apr/2025 14:20:19] "[31m[1mPOST /solve HTTP/1.1[0m" 415 -
+2025-04-19 14:20:19,877 - INFO - 127.0.0.1 - - [19/Apr/2025 14:20:19] "[31m[1mPOST /solve HTTP/1.1[0m" 415 -
+2025-04-19 14:20:21,060 - INFO - 127.0.0.1 - - [19/Apr/2025 14:20:21] "GET / HTTP/1.1" 200 -
+2025-04-19 14:20:25,842 - INFO - 127.0.0.1 - - [19/Apr/2025 14:20:25] "[31m[1mPOST /solve HTTP/1.1[0m" 415 -
+2025-04-19 14:23:48,088 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-19 14:23:48,184 - INFO -  * Restarting with stat
+2025-04-19 14:23:52,017 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:23:52,017 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 14:23:52,019 - INFO -  * Restarting with stat
+2025-04-19 14:23:52,885 - WARNING -  * Debugger is active!
+2025-04-19 14:23:52,889 - INFO -  * Debugger PIN: 815-900-523
+2025-04-19 14:23:59,699 - INFO - 127.0.0.1 - - [19/Apr/2025 14:23:59] "GET / HTTP/1.1" 200 -
+2025-04-19 14:24:09,867 - INFO - 127.0.0.1 - - [19/Apr/2025 14:24:09] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:28:05,721 - INFO - 127.0.0.1 - - [19/Apr/2025 14:28:05] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:32:42,609 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:32:42,609 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 14:32:42,610 - INFO -  * Restarting with stat
+2025-04-19 14:32:43,461 - WARNING -  * Debugger is active!
+2025-04-19 14:32:43,461 - INFO -  * Debugger PIN: 815-900-523
+2025-04-19 14:32:50,395 - INFO - 127.0.0.1 - - [19/Apr/2025 14:32:50] "GET / HTTP/1.1" 200 -
+2025-04-19 14:33:04,902 - INFO - 127.0.0.1 - - [19/Apr/2025 14:33:04] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:33:12,837 - INFO - 127.0.0.1 - - [19/Apr/2025 14:33:12] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:33:13,700 - INFO - 127.0.0.1 - - [19/Apr/2025 14:33:13] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:33:14,186 - INFO - 127.0.0.1 - - [19/Apr/2025 14:33:14] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:33:22,970 - INFO - 127.0.0.1 - - [19/Apr/2025 14:33:22] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:33:23,491 - INFO - 127.0.0.1 - - [19/Apr/2025 14:33:23] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:33:24,848 - INFO - 127.0.0.1 - - [19/Apr/2025 14:33:24] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:33:25,300 - INFO - 127.0.0.1 - - [19/Apr/2025 14:33:25] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:33:26,937 - INFO - 127.0.0.1 - - [19/Apr/2025 14:33:26] "GET / HTTP/1.1" 200 -
+2025-04-19 14:35:13,114 - INFO - 127.0.0.1 - - [19/Apr/2025 14:35:13] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:35:13,895 - INFO - 127.0.0.1 - - [19/Apr/2025 14:35:13] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:35:14,704 - INFO - 127.0.0.1 - - [19/Apr/2025 14:35:14] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:39:26,028 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-19 14:39:26,118 - INFO -  * Restarting with stat
+2025-04-19 14:39:29,005 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:39:29,005 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 14:39:29,005 - INFO -  * Restarting with stat
+2025-04-19 14:39:29,890 - WARNING -  * Debugger is active!
+2025-04-19 14:39:29,894 - INFO -  * Debugger PIN: 815-900-523
+2025-04-19 14:39:38,758 - INFO - 127.0.0.1 - - [19/Apr/2025 14:39:38] "GET / HTTP/1.1" 200 -
+2025-04-19 14:39:50,616 - INFO - 127.0.0.1 - - [19/Apr/2025 14:39:50] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:39:54,416 - INFO - 127.0.0.1 - - [19/Apr/2025 14:39:54] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:39:56,766 - INFO - 127.0.0.1 - - [19/Apr/2025 14:39:56] "GET / HTTP/1.1" 200 -
+2025-04-19 14:40:03,448 - INFO - 127.0.0.1 - - [19/Apr/2025 14:40:03] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:40:32,146 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-19 14:40:32,274 - INFO -  * Restarting with stat
+2025-04-19 14:40:33,144 - WARNING -  * Debugger is active!
+2025-04-19 14:40:33,144 - INFO -  * Debugger PIN: 815-900-523
+2025-04-19 14:45:40,067 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 14:45:40,068 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 14:45:40,069 - INFO -  * Restarting with stat
+2025-04-19 14:45:40,910 - WARNING -  * Debugger is active!
+2025-04-19 14:45:40,914 - INFO -  * Debugger PIN: 815-900-523
+2025-04-19 14:45:48,183 - INFO - 127.0.0.1 - - [19/Apr/2025 14:45:48] "GET / HTTP/1.1" 200 -
+2025-04-19 14:45:59,975 - INFO - 127.0.0.1 - - [19/Apr/2025 14:45:59] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:46:01,205 - INFO - 127.0.0.1 - - [19/Apr/2025 14:46:01] "[33mPOST /solve HTTP/1.1[0m" 404 -
+2025-04-19 14:48:01,698 - INFO - 127.0.0.1 - - [19/Apr/2025 14:48:01] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:48:03,539 - INFO - 127.0.0.1 - - [19/Apr/2025 14:48:03] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:48:04,323 - INFO - 127.0.0.1 - - [19/Apr/2025 14:48:04] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:48:32,616 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-19 14:48:32,765 - INFO -  * Restarting with stat
+2025-04-19 14:48:33,660 - WARNING -  * Debugger is active!
+2025-04-19 14:48:33,660 - INFO -  * Debugger PIN: 815-900-523
+2025-04-19 14:48:41,191 - INFO - 127.0.0.1 - - [19/Apr/2025 14:48:41] "GET / HTTP/1.1" 200 -
+2025-04-19 14:48:52,184 - INFO - 127.0.0.1 - - [19/Apr/2025 14:48:52] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:49:26,769 - INFO - 127.0.0.1 - - [19/Apr/2025 14:49:26] "GET / HTTP/1.1" 200 -
+2025-04-19 14:49:37,201 - INFO - 127.0.0.1 - - [19/Apr/2025 14:49:37] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:49:39,834 - INFO - 127.0.0.1 - - [19/Apr/2025 14:49:39] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:49:40,338 - INFO - 127.0.0.1 - - [19/Apr/2025 14:49:40] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:49:40,510 - INFO - 127.0.0.1 - - [19/Apr/2025 14:49:40] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:49:40,694 - INFO - 127.0.0.1 - - [19/Apr/2025 14:49:40] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:49:40,871 - INFO - 127.0.0.1 - - [19/Apr/2025 14:49:40] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:49:41,022 - INFO - 127.0.0.1 - - [19/Apr/2025 14:49:41] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:49:41,187 - INFO - 127.0.0.1 - - [19/Apr/2025 14:49:41] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 14:49:41,402 - INFO - 127.0.0.1 - - [19/Apr/2025 14:49:41] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 16:22:18,807 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-19 16:22:18,905 - INFO -  * Restarting with stat
+2025-04-19 16:22:19,773 - WARNING -  * Debugger is active!
+2025-04-19 16:22:19,774 - INFO -  * Debugger PIN: 815-900-523
+2025-04-19 16:26:48,605 - INFO - 127.0.0.1 - - [19/Apr/2025 16:26:48] "GET / HTTP/1.1" 200 -
+2025-04-19 16:26:49,948 - INFO - 127.0.0.1 - - [19/Apr/2025 16:26:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-19 16:27:54,668 - INFO - 127.0.0.1 - - [19/Apr/2025 16:27:54] "GET / HTTP/1.1" 200 -
+2025-04-19 16:28:14,332 - INFO - 127.0.0.1 - - [19/Apr/2025 16:28:14] "[31m[1mPOST /plot HTTP/1.1[0m" 415 -
+2025-04-19 16:34:43,640 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-04-19 16:34:43,734 - INFO -  * Restarting with stat
+2025-04-19 16:34:44,594 - WARNING -  * Debugger is active!
+2025-04-19 16:34:44,594 - INFO -  * Debugger PIN: 815-900-523
+2025-04-19 16:36:54,030 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 16:36:54,030 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 16:36:54,031 - INFO -  * Restarting with stat
+2025-04-19 16:36:54,873 - WARNING -  * Debugger is active!
+2025-04-19 16:36:54,873 - INFO -  * Debugger PIN: 815-900-523
+2025-04-19 16:37:03,504 - INFO - 127.0.0.1 - - [19/Apr/2025 16:37:03] "GET / HTTP/1.1" 200 -
+2025-04-19 16:37:22,136 - INFO - 127.0.0.1 - - [19/Apr/2025 16:37:22] "POST /plot HTTP/1.1" 200 -
+2025-04-19 16:37:22,212 - INFO - 127.0.0.1 - - [19/Apr/2025 16:37:22] "GET /static/plots/eb1984db94744aeda3edbca1e11047de.png HTTP/1.1" 200 -
+2025-04-19 16:37:43,269 - INFO - 127.0.0.1 - - [19/Apr/2025 16:37:43] "POST /plot HTTP/1.1" 200 -
+2025-04-19 16:37:43,288 - INFO - 127.0.0.1 - - [19/Apr/2025 16:37:43] "GET /static/plots/51e34f49d0df4c7daf3a7c6221c13d09.png HTTP/1.1" 200 -
+2025-04-19 16:37:56,185 - INFO - Успішне обчислення: 2 m·km
+2025-04-19 16:37:56,185 - INFO - 127.0.0.1 - - [19/Apr/2025 16:37:56] "POST /calculate HTTP/1.1" 200 -

@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAFAD2;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #8B0000;
+}
+
+h2 {
+    color: #333;
+}
+
+input, select, textarea, button {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #600000;
+}
+
+/* Tab styles */
+.tab button {
+    background-color: #FAFAD2;
+    color: #8B0000;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.tab button:hover {
+    background-color: #E0C080;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}

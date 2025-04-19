@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI Unit Converter & Physics Solver</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FAFAD2;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 { color: #8B0000; }
+        h2 { color: #333; }
+        input, select, textarea, button {
+            width: 90%;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #8B0000;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover { background-color: #600000; }
+        .tab button {
+            background-color: #FAFAD2;
+            color: #8B0000;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+        }
+        .tab button:hover { background-color: #E0C080; }
+        .tab button.active {
+            background-color: #8B0000;
+            color: white;
+        }
+        .tabcontent {
+            display: none;
+            padding: 20px;
+        }
+        .result {
+            font-size: 18px;
+            font-weight: bold;
+            color: #8B0000;
+            min-height: 24px;
+        }
+        .error { color: #FF0000; }
+        img { max-width: 100%; margin-top: 15px; }
+        .loading {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #8B0000;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 10px auto;
+            display: none;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SI Unit Converter & Physics Solver</h1>
+
+        <div class="tab">
+            <button onclick="openTab(event, 'Converter')" class="active" id="defaultTab">Unit Converter</button>
+            <button onclick="openTab(event, 'Solver')">Physics Solver</button>
+            <button onclick="openTab(event, 'Graph')">Graph Plotter</button>
+        </div>
+
+        <div id="Converter" class="tabcontent" style="display: block;">
+            <h2>Convert SI Units</h2>
+            <select id="category" onchange="updateUnits()">
+                <option value="length">Length</option>
+                <option value="mass">Mass</option>
+                <option value="time">Time</option>
+                <option value="temperature">Temperature</option>
+                <option value="speed">Speed</option>
+            </select>
+            <br>
+            <label>From:</label> <select id="fromUnit"></select>
+            <label>To:</label> <select id="toUnit"></select>
+            <br>
+            <input type="number" id="inputValue" placeholder="Enter value">
+            <button onclick="convert()">Convert</button>
+            <p class="result">Result: <span id="outputValue"></span></p>
+        </div>
+
+        <div id="Solver" class="tabcontent">
+            <h2>Physics Equation Solver</h2>
+            <div>
+                <textarea id="physicsExpression" placeholder="Enter equation (e.g., 8 km / (1 h + 25 min))"></textarea>
+                <br>
+                <button onclick="solvePhysics()">Solve</button>
+                <div class="loading" id="physicsLoading"></div>
+                <p class="result" id="physicsResult"></p>
+                <p class="error" id="physicsError"></p>
+            </div>
+        </div>
+
+        <div id="Graph" class="tabcontent">
+            <h2>Plot a Graph</h2>
+            <div>
+                <label>Plot type:</label><br>
+                <input type="radio" name="mode" value="function" checked onchange="toggleInput()"> Function of x<br>
+                <input type="radio" name="mode" value="points" onchange="toggleInput()"> X, Y Points<br><br>
+
+                <div id="functionInput">
+                    <label>Function (e.g., sin(x)):</label><br>
+                    <input type="text" id="functionExpr" placeholder="sin(x)"><br>
+                    <small style="color:gray">Examples: sin(x), x^2 + 3*x + 1, exp(x)</small><br><br>
+                    <label>x range:</label>
+                    <input type="number" id="xStart" value="-10"> to 
+                    <input type="number" id="xEnd" value="10"><br>
+                </div>
+
+                <div id="pointsInput" style="display:none;">
+                    <label>X values (comma separated):</label><br>
+                    <input type="text" id="xValues" placeholder="1, 2, 3, 4"><br><br>
+                    <label>Y values (comma separated):</label><br>
+                    <input type="text" id="yValues" placeholder="2, 4, 6, 8"><br>
+                </div>
+
+                <br><button onclick="plotGraph()">Plot</button>
+                <div class="loading" id="plotLoading"></div>
+                <p class="error" id="plotError"></p>
+                <div id="graphResult"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const units = {
+            length: { m: 1, cm: 0.01, km: 1000, mm: 0.001, in: 0.0254, ft: 0.3048 },
+            mass: { kg: 1, g: 0.001, mg: 1e-6, lb: 0.453592 },
+            time: { s: 1, min: 60, h: 3600, day: 86400 },
+            temperature: { C: 1, K: 1, F: 1 },
+            speed: { "m/s": 1, "km/h": 0.277778, mph: 0.44704, knot: 0.514444 }
+        };
+
+        function updateUnits() {
+            const category = document.getElementById("category").value;
+            const fromUnitSelect = document.getElementById("fromUnit");
+            const toUnitSelect = document.getElementById("toUnit");
+            
+            fromUnitSelect.innerHTML = "";
+            toUnitSelect.innerHTML = "";
+
+            Object.keys(units[category]).forEach(unit => {
+                fromUnitSelect.add(new Option(unit, unit));
+                toUnitSelect.add(new Option(unit, unit));
+            });
+
+            toUnitSelect.selectedIndex = 1;
+        }
+
+        function convert() {
+            const category = document.getElementById("category").value;
+            const fromUnit = document.getElementById("fromUnit").value;
+            const toUnit = document.getElementById("toUnit").value;
+            const value = parseFloat(document.getElementById("inputValue").value);
+            
+            if (isNaN(value)) {
+                document.getElementById("outputValue").innerText = "Invalid input";
+                return;
+            }
+
+            let result;
+            if (category === "temperature") {
+                result = convertTemperature(value, fromUnit, toUnit);
+            } else {
+                result = (value * units[category][fromUnit]) / units[category][toUnit];
+            }
+            document.getElementById("outputValue").innerText = result.toFixed(6);
+        }
+
+        function convertTemperature(value, from, to) {
+            let celsius;
+            if (from === "C") celsius = value;
+            else if (from === "K") celsius = value - 273.15;
+            else if (from === "F") celsius = (value - 32) * 5 / 9;
+
+            if (to === "C") return celsius;
+            else if (to === "K") return celsius + 273.15;
+            else if (to === "F") return (celsius * 9 / 5) + 32;
+            return value;
+        }
+
+        function openTab(evt, tabName) {
+            const tabContents = document.getElementsByClassName("tabcontent");
+            for (let tab of tabContents) tab.style.display = "none";
+            
+            const tabButtons = document.getElementsByClassName("tab")[0].getElementsByTagName("button");
+            for (let btn of tabButtons) btn.classList.remove("active");
+            
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.classList.add("active");
+        }
+
+        function toggleInput() {
+            const mode = document.querySelector('input[name="mode"]:checked').value;
+            document.getElementById("functionInput").style.display = mode === "function" ? "block" : "none";
+            document.getElementById("pointsInput").style.display = mode === "points" ? "block" : "none";
+        }
+
+        async function solvePhysics() {
+            const expression = document.getElementById("physicsExpression").value.trim();
+            if (!expression) {
+                document.getElementById("physicsError").textContent = "Please enter an expression";
+                return;
+            }
+
+            const loading = document.getElementById("physicsLoading");
+            const resultEl = document.getElementById("physicsResult");
+            const errorEl = document.getElementById("physicsError");
+            
+            loading.style.display = "block";
+            resultEl.textContent = "";
+            errorEl.textContent = "";
+
+            try {
+                const response = await fetch("/calculate", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ expression })
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    resultEl.textContent = data.result;
+                } else {
+                    errorEl.textContent = data.error || "Unknown error occurred";
+                }
+            } catch (error) {
+                errorEl.textContent = "Network error: " + error.message;
+            } finally {
+                loading.style.display = "none";
+            }
+        }
+
+        async function plotGraph() {
+            const mode = document.querySelector('input[name="mode"]:checked').value;
+            const loading = document.getElementById("plotLoading");
+            const errorEl = document.getElementById("plotError");
+            const graphResult = document.getElementById("graphResult");
+            
+            loading.style.display = "block";
+            errorEl.textContent = "";
+            graphResult.innerHTML = "";
+
+            try {
+                let requestData = { mode };
+                
+                if (mode === "function") {
+                    requestData.function_expr = document.getElementById("functionExpr").value.trim();
+                    requestData.x_start = document.getElementById("xStart").value;
+                    requestData.x_end = document.getElementById("xEnd").value;
+                } else {
+                    requestData.x_values = document.getElementById("xValues").value.trim();
+                    requestData.y_values = document.getElementById("yValues").value.trim();
+                }
+
+                const response = await fetch("/plot", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(requestData)
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    if (data.plot_url) {
+                        const img = document.createElement("img");
+                        img.src = data.plot_url;
+                        img.alt = "Graph";
+                        graphResult.appendChild(img);
+                    }
+                } else {
+                    errorEl.textContent = data.error || "Failed to plot graph";
+                }
+            } catch (error) {
+                errorEl.textContent = "Network error: " + error.message;
+            } finally {
+                loading.style.display = "none";
+            }
+        }
+
+        window.onload = function() {
+            document.getElementById("defaultTab").click();
+            updateUnits();
+            toggleInput();
+        };
+    </script>
+</body>
+</html>
