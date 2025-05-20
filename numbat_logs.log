@@ -610,3 +610,289 @@ print(result) | Результат: 1
 2025-04-19 16:37:43,288 - INFO - 127.0.0.1 - - [19/Apr/2025 16:37:43] "GET /static/plots/51e34f49d0df4c7daf3a7c6221c13d09.png HTTP/1.1" 200 -
 2025-04-19 16:37:56,185 - INFO - Успішне обчислення: 2 m·km
 2025-04-19 16:37:56,185 - INFO - 127.0.0.1 - - [19/Apr/2025 16:37:56] "POST /calculate HTTP/1.1" 200 -
+2025-05-07 23:31:47,199 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-07 23:31:47,199 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 23:31:47,199 - INFO -  * Restarting with stat
+2025-05-07 23:31:48,022 - WARNING -  * Debugger is active!
+2025-05-07 23:31:48,034 - INFO -  * Debugger PIN: 815-900-523
+2025-05-07 23:32:01,511 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-07 23:32:01,512 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 23:32:01,513 - INFO -  * Restarting with stat
+2025-05-07 23:32:02,344 - WARNING -  * Debugger is active!
+2025-05-07 23:32:02,344 - INFO -  * Debugger PIN: 815-900-523
+2025-05-07 23:35:57,201 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-07 23:35:57,202 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-07 23:35:57,203 - INFO -  * Restarting with stat
+2025-05-07 23:35:58,026 - WARNING -  * Debugger is active!
+2025-05-07 23:35:58,031 - INFO -  * Debugger PIN: 815-900-523
+2025-05-07 23:36:01,811 - INFO - 127.0.0.1 - - [07/May/2025 23:36:01] "GET / HTTP/1.1" 200 -
+2025-05-07 23:36:01,885 - INFO - 127.0.0.1 - - [07/May/2025 23:36:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-07 23:36:14,661 - INFO - 127.0.0.1 - - [07/May/2025 23:36:14] "GET / HTTP/1.1" 200 -
+2025-05-07 23:36:14,725 - INFO - 127.0.0.1 - - [07/May/2025 23:36:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-07 23:43:49,508 - INFO - Успішне обчислення: 8.05639 km/m
+2025-05-07 23:43:49,509 - INFO - 127.0.0.1 - - [07/May/2025 23:43:49] "POST /calculate HTTP/1.1" 200 -
+2025-05-07 23:44:10,696 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:22
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 8*km / ([0m[31m1*m[0m -[0m[31m7*ms[0m)
+  [0m[36m│[0m                      [0m[31m^^^[0m [0m[36m-[0m[31m^^^^[0m [0m[31mTime[0m
+  [0m[36m│[0m                      [0m[31m│[0m   [0m[36m│[0m 
+  [0m[36m│[0m                      [0m[31m│[0m   [0m[36mincompatible dimensions in subtraction[0m
+  [0m[36m│[0m                      [0m[31mLength[0m
+  [0m[36m│[0m
+  [0m[36m=[0m  left hand side: Length
+    right hand side: Time
+
+Interpreter stopped
+2025-05-07 23:44:10,697 - INFO - 127.0.0.1 - - [07/May/2025 23:44:10] "POST /calculate HTTP/1.1" 200 -
+2025-05-07 23:44:18,453 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:22
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 8*km / ([0m[31m1*m[0m -[0m[31m7[0m)
+  [0m[36m│[0m                      [0m[31m^^^[0m [0m[36m-[0m[31m^[0m [0m[31mAngle or Scalar or SolidAngle[0m
+  [0m[36m│[0m                      [0m[31m│[0m   [0m[36m│[0m 
+  [0m[36m│[0m                      [0m[31m│[0m   [0m[36mincompatible dimensions in subtraction[0m
+  [0m[36m│[0m                      [0m[31mLength[0m
+  [0m[36m│[0m
+  [0m[36m=[0m  left hand side: Length
+    right hand side: Scalar    [= Angle, Scalar, SolidAngle]
+    
+    Suggested fix: multiply the expression on the right hand side by a `Length` factor
+
+Interpreter stopped
+2025-05-07 23:44:18,454 - INFO - 127.0.0.1 - - [07/May/2025 23:44:18] "POST /calculate HTTP/1.1" 200 -
+2025-05-07 23:44:49,963 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:22
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 8*km / ([0m[31m1*h[0m - [0m[31m4*c[0m)
+  [0m[36m│[0m                      [0m[31m^^^[0m [0m[36m-[0m [0m[31m^^^[0m [0m[31mVelocity[0m
+  [0m[36m│[0m                      [0m[31m│[0m   [0m[36m│[0m  
+  [0m[36m│[0m                      [0m[31m│[0m   [0m[36mincompatible dimensions in subtraction[0m
+  [0m[36m│[0m                      [0m[31mTime[0m
+  [0m[36m│[0m
+  [0m[36m=[0m  left hand side: Time
+    right hand side: Time⁻¹ × Length    [= Velocity]
+
+Interpreter stopped
+2025-05-07 23:44:49,963 - INFO - 127.0.0.1 - - [07/May/2025 23:44:49] "POST /calculate HTTP/1.1" 200 -
+2025-05-07 23:44:57,037 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:22
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 8*km / ([0m[31m1*h[0m - [0m[31m4*m[0m)
+  [0m[36m│[0m                      [0m[31m^^^[0m [0m[36m-[0m [0m[31m^^^[0m [0m[31mLength[0m
+  [0m[36m│[0m                      [0m[31m│[0m   [0m[36m│[0m  
+  [0m[36m│[0m                      [0m[31m│[0m   [0m[36mincompatible dimensions in subtraction[0m
+  [0m[36m│[0m                      [0m[31mTime[0m
+  [0m[36m│[0m
+  [0m[36m=[0m  left hand side: Time
+    right hand side: Length
+
+Interpreter stopped
+2025-05-07 23:44:57,039 - INFO - 127.0.0.1 - - [07/May/2025 23:44:57] "POST /calculate HTTP/1.1" 200 -
+2025-05-07 23:45:28,687 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:30
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 8*km / (9*h + 6*[0m[31mmim[0m)
+  [0m[36m│[0m                              [0m[31m^^^[0m [0m[31munknown identifier[0m
+  [0m[36m│[0m
+  [0m[36m=[0m Did you mean 'mil'?
+
+Interpreter stopped
+2025-05-07 23:45:28,687 - INFO - 127.0.0.1 - - [07/May/2025 23:45:28] "POST /calculate HTTP/1.1" 200 -
+2025-05-07 23:45:33,764 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:30
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 8*km / (9*h + 6*[0m[31mmim[0m)
+  [0m[36m│[0m                              [0m[31m^^^[0m [0m[31munknown identifier[0m
+  [0m[36m│[0m
+  [0m[36m=[0m Did you mean 'mi'?
+
+Interpreter stopped
+2025-05-07 23:45:33,764 - INFO - 127.0.0.1 - - [07/May/2025 23:45:33] "POST /calculate HTTP/1.1" 200 -
+2025-05-07 23:45:38,957 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:31
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 8*km / ( 9*h + 6*[0m[31mmim[0m )
+  [0m[36m│[0m                               [0m[31m^^^[0m [0m[31munknown identifier[0m
+  [0m[36m│[0m
+  [0m[36m=[0m Did you mean 'min'?
+
+Interpreter stopped
+2025-05-07 23:45:38,957 - INFO - 127.0.0.1 - - [07/May/2025 23:45:38] "POST /calculate HTTP/1.1" 200 -
+2025-05-07 23:45:40,509 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:31
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 8*km / ( 9*h + 6*[0m[31mmim[0m )
+  [0m[36m│[0m                               [0m[31m^^^[0m [0m[31munknown identifier[0m
+  [0m[36m│[0m
+  [0m[36m=[0m Did you mean 'mil'?
+
+Interpreter stopped
+2025-05-07 23:45:40,510 - INFO - 127.0.0.1 - - [07/May/2025 23:45:40] "POST /calculate HTTP/1.1" 200 -
+2025-05-07 23:48:32,664 - INFO - Успішне обчислення: 0.879121 km/h
+2025-05-07 23:48:32,664 - INFO - 127.0.0.1 - - [07/May/2025 23:48:32] "POST /calculate HTTP/1.1" 200 -
+2025-05-07 23:55:01,110 - INFO - 127.0.0.1 - - [07/May/2025 23:55:01] "[31m[1mPOST /plot HTTP/1.1[0m" 400 -
+2025-05-07 23:55:08,228 - INFO - 127.0.0.1 - - [07/May/2025 23:55:08] "[31m[1mPOST /plot HTTP/1.1[0m" 400 -
+2025-05-07 23:55:23,912 - INFO - 127.0.0.1 - - [07/May/2025 23:55:23] "POST /plot HTTP/1.1" 200 -
+2025-05-07 23:55:24,009 - INFO - 127.0.0.1 - - [07/May/2025 23:55:24] "GET /static/plots/f0feba685c574131b65545a5ea1f8839.png HTTP/1.1" 200 -
+2025-05-07 23:55:34,195 - INFO - 127.0.0.1 - - [07/May/2025 23:55:34] "POST /plot HTTP/1.1" 200 -
+2025-05-07 23:55:34,234 - INFO - 127.0.0.1 - - [07/May/2025 23:55:34] "GET /static/plots/2b665c0de361430c965a4791838d6537.png HTTP/1.1" 200 -
+2025-05-07 23:55:40,417 - INFO - 127.0.0.1 - - [07/May/2025 23:55:40] "POST /plot HTTP/1.1" 200 -
+2025-05-07 23:55:40,732 - INFO - 127.0.0.1 - - [07/May/2025 23:55:40] "GET /static/plots/2f0be7ba30e64a6281b9915f7c33266a.png HTTP/1.1" 200 -
+2025-05-08 00:07:17,596 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-08 00:11:57,438 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 00:11:57,438 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 00:11:57,440 - INFO -  * Restarting with stat
+2025-05-08 00:11:58,285 - WARNING -  * Debugger is active!
+2025-05-08 00:11:58,285 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 00:13:39,409 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 00:13:39,409 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 00:13:39,410 - INFO -  * Restarting with stat
+2025-05-08 00:13:40,247 - WARNING -  * Debugger is active!
+2025-05-08 00:13:40,251 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 00:14:30,339 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 00:14:30,339 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 00:14:30,341 - INFO -  * Restarting with stat
+2025-05-08 00:14:31,149 - WARNING -  * Debugger is active!
+2025-05-08 00:14:31,154 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 00:15:57,392 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 00:15:57,392 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 00:15:57,392 - INFO -  * Restarting with stat
+2025-05-08 00:15:58,233 - WARNING -  * Debugger is active!
+2025-05-08 00:15:58,237 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 10:22:20,349 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 10:22:20,349 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 10:22:20,349 - INFO -  * Restarting with stat
+2025-05-08 10:22:21,198 - WARNING -  * Debugger is active!
+2025-05-08 10:22:21,207 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 10:22:44,152 - INFO - 127.0.0.1 - - [08/May/2025 10:22:44] "GET / HTTP/1.1" 200 -
+2025-05-08 10:32:43,657 - INFO - 127.0.0.1 - - [08/May/2025 10:32:43] "GET / HTTP/1.1" 200 -
+2025-05-08 13:54:34,037 - INFO - 127.0.0.1 - - [08/May/2025 13:54:34] "GET / HTTP/1.1" 200 -
+2025-05-08 13:54:46,924 - INFO - 127.0.0.1 - - [08/May/2025 13:54:46] "GET / HTTP/1.1" 200 -
+2025-05-08 14:02:56,396 - INFO - 127.0.0.1 - - [08/May/2025 14:02:56] "GET / HTTP/1.1" 200 -
+2025-05-08 14:02:59,397 - INFO - 127.0.0.1 - - [08/May/2025 14:02:59] "GET / HTTP/1.1" 200 -
+2025-05-08 14:08:42,255 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while parsing[0m
+  [0m[36m┌─[0m File calc.nbt:1:14
+  [0m[36m│[0m  
+[0m[36m1[0m [0m[36m│[0m   let result = [0m[31m"3 * 10**8 м/с[0m
+  [0m[36m│[0m [0m[31m╭[0m[0m[31m──────────────^[0m
+[0m[36m2[0m [0m[36m│[0m [0m[31m│[0m [0m[31mprint(result)[0m
+  [0m[36m│[0m [0m[31m╰[0m[0m[31m─────────────^ Unterminated string[0m
+
+Interpreter stopped
+2025-05-08 14:08:42,271 - INFO - 127.0.0.1 - - [08/May/2025 14:08:42] "POST /calculate HTTP/1.1" 200 -
+2025-05-08 14:09:17,357 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:16
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 8 [0m[31mкм[0m / (1 год + 25 хв)
+  [0m[36m│[0m                [0m[31m^^[0m [0m[31munknown identifier[0m
+  [0m[36m│[0m
+  [0m[36m=[0m Did you mean 'cd'?
+
+Interpreter stopped
+2025-05-08 14:09:17,357 - INFO - 127.0.0.1 - - [08/May/2025 14:09:17] "POST /calculate HTTP/1.1" 200 -
+2025-05-08 14:09:32,454 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:24
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 3 * 10**8 [0m[31mм[0m/с
+  [0m[36m│[0m                        [0m[31m^[0m [0m[31munknown identifier[0m
+
+Interpreter stopped
+2025-05-08 14:09:32,454 - INFO - 127.0.0.1 - - [08/May/2025 14:09:32] "POST /calculate HTTP/1.1" 200 -
+2025-05-08 14:09:50,597 - INFO - 127.0.0.1 - - [08/May/2025 14:09:50] "GET / HTTP/1.1" 200 -
+2025-05-08 14:09:55,653 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:24
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 3 * 10**8 [0m[31mм[0m/с
+  [0m[36m│[0m                        [0m[31m^[0m [0m[31munknown identifier[0m
+
+Interpreter stopped
+2025-05-08 14:09:55,653 - INFO - 127.0.0.1 - - [08/May/2025 14:09:55] "POST /calculate HTTP/1.1" 200 -
+2025-05-08 14:19:17,222 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-08 14:19:17,381 - INFO -  * Restarting with stat
+2025-05-08 14:19:18,250 - WARNING -  * Debugger is active!
+2025-05-08 14:19:18,260 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 14:19:22,891 - INFO - 127.0.0.1 - - [08/May/2025 14:19:22] "GET / HTTP/1.1" 200 -
+2025-05-08 14:19:27,273 - INFO - 127.0.0.1 - - [08/May/2025 14:19:27] "POST /calculate HTTP/1.1" 200 -
+2025-05-08 14:19:43,655 - INFO - 127.0.0.1 - - [08/May/2025 14:19:43] "POST /calculate HTTP/1.1" 200 -
+2025-05-08 14:19:59,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 14:19:59,826 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 14:19:59,826 - INFO -  * Restarting with stat
+2025-05-08 14:20:00,665 - WARNING -  * Debugger is active!
+2025-05-08 14:20:00,665 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 14:20:03,588 - INFO - 127.0.0.1 - - [08/May/2025 14:20:03] "GET / HTTP/1.1" 200 -
+2025-05-08 14:20:10,421 - INFO - 127.0.0.1 - - [08/May/2025 14:20:10] "POST /calculate HTTP/1.1" 200 -
+2025-05-08 14:20:42,862 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-08 14:20:42,988 - INFO -  * Restarting with stat
+2025-05-08 14:20:43,872 - WARNING -  * Debugger is active!
+2025-05-08 14:20:43,873 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 14:21:31,533 - INFO - Успішне обчислення: 7.994 km
+2025-05-08 14:21:31,534 - INFO - 127.0.0.1 - - [08/May/2025 14:21:31] "POST /calculate HTTP/1.1" 200 -
+2025-05-08 14:21:48,448 - ERROR - Помилка Numbat: [0m[1m[38;5;9merror[0m[1m: while type checking[0m
+  [0m[36m┌─[0m File calc.nbt:1:16
+  [0m[36m│[0m
+[0m[36m1[0m [0m[36m│[0m let result = 9*[0m[31mpa[0m-9*pa
+  [0m[36m│[0m                [0m[31m^^[0m [0m[31munknown identifier[0m
+
+Interpreter stopped
+2025-05-08 14:21:48,448 - INFO - 127.0.0.1 - - [08/May/2025 14:21:48] "POST /calculate HTTP/1.1" 200 -
+2025-05-08 22:02:21,573 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 22:02:21,573 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 22:02:21,574 - INFO -  * Restarting with stat
+2025-05-08 22:02:22,071 - WARNING -  * Debugger is active!
+2025-05-08 22:02:22,074 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 22:02:29,894 - INFO - 127.0.0.1 - - [08/May/2025 22:02:29] "GET / HTTP/1.1" 200 -
+2025-05-08 22:55:01,091 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\config.py', reloading
+2025-05-08 22:55:01,281 - INFO -  * Restarting with stat
+2025-05-08 22:55:02,201 - WARNING -  * Debugger is active!
+2025-05-08 22:55:02,201 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 22:55:04,236 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\tests\\test_app.py', reloading
+2025-05-08 22:55:04,378 - INFO -  * Restarting with stat
+2025-05-08 22:55:05,279 - WARNING -  * Debugger is active!
+2025-05-08 22:55:05,296 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 22:56:12,595 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-08 22:56:12,684 - INFO -  * Restarting with stat
+2025-05-08 22:56:13,542 - WARNING -  * Debugger is active!
+2025-05-08 22:56:13,542 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 22:59:16,423 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-08 22:59:16,537 - INFO -  * Restarting with stat
+2025-05-08 23:01:50,015 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 23:01:50,015 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 23:01:50,017 - INFO -  * Restarting with stat
+2025-05-08 23:01:50,846 - WARNING -  * Debugger is active!
+2025-05-08 23:01:50,862 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 23:17:10,181 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 23:17:10,181 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 23:17:10,191 - INFO -  * Restarting with stat
+2025-05-08 23:17:11,028 - WARNING -  * Debugger is active!
+2025-05-08 23:17:11,030 - INFO -  * Debugger PIN: 815-900-523
+2025-05-08 23:17:11,052 - INFO - 127.0.0.1 - - [08/May/2025 23:17:11] "GET / HTTP/1.1" 200 -
+2025-05-08 23:17:11,075 - INFO - 127.0.0.1 - - [08/May/2025 23:17:11] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-05-08 23:17:14,530 - INFO - 127.0.0.1 - - [08/May/2025 23:17:14] "GET / HTTP/1.1" 200 -
+2025-05-08 23:17:14,841 - INFO - 127.0.0.1 - - [08/May/2025 23:17:14] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-05-08 23:19:38,452 - INFO - 127.0.0.1 - - [08/May/2025 23:19:38] "GET / HTTP/1.1" 200 -
+2025-05-08 23:19:38,566 - INFO - 127.0.0.1 - - [08/May/2025 23:19:38] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 23:20:14,548 - ERROR - Помилка обчислення: Помилка обчислення: invalid decimal literal (<unknown>, line 1)
+2025-05-08 23:20:14,548 - INFO - 127.0.0.1 - - [08/May/2025 23:20:14] "[35m[1mPOST /calculate HTTP/1.1[0m" 500 -
+2025-05-08 23:20:23,547 - ERROR - Помилка обчислення: Помилка обчислення: invalid decimal literal (<unknown>, line 1)
+2025-05-08 23:20:23,547 - INFO - 127.0.0.1 - - [08/May/2025 23:20:23] "[35m[1mPOST /calculate HTTP/1.1[0m" 500 -
+2025-05-08 23:20:25,010 - ERROR - Помилка обчислення: Помилка обчислення: invalid decimal literal (<unknown>, line 1)
+2025-05-08 23:20:25,010 - INFO - 127.0.0.1 - - [08/May/2025 23:20:25] "[35m[1mPOST /calculate HTTP/1.1[0m" 500 -
+2025-05-08 23:20:29,448 - ERROR - Помилка обчислення: Помилка обчислення: invalid decimal literal (<unknown>, line 1)
+2025-05-08 23:20:29,448 - INFO - 127.0.0.1 - - [08/May/2025 23:20:29] "[35m[1mPOST /calculate HTTP/1.1[0m" 500 -
+2025-05-08 23:21:53,597 - INFO - 127.0.0.1 - - [08/May/2025 23:21:53] "GET / HTTP/1.1" 200 -
+2025-05-08 23:21:53,627 - INFO - 127.0.0.1 - - [08/May/2025 23:21:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 23:23:22,777 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-08 23:23:22,871 - INFO -  * Restarting with stat

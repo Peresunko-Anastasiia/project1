@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SI Unit Converter & Physics Solver</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,8 +20,12 @@
             margin: auto;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 { color: #8B0000; }
-        h2 { color: #333; }
+        h1 {
+            color: #8B0000;
+        }
+        h2 {
+            color: #333;
+        }
         input, select, textarea, button {
             width: 90%;
             margin: 10px 0;
@@ -34,7 +39,9 @@
             border: none;
             cursor: pointer;
         }
-        button:hover { background-color: #600000; }
+        button:hover {
+            background-color: #600000;
+        }
         .tab button {
             background-color: #FAFAD2;
             color: #8B0000;
@@ -43,7 +50,9 @@
             cursor: pointer;
             width: 50%;
         }
-        .tab button:hover { background-color: #E0C080; }
+        .tab button:hover {
+            background-color: #E0C080;
+        }
         .tab button.active {
             background-color: #8B0000;
             color: white;
@@ -58,8 +67,13 @@
             color: #8B0000;
             min-height: 24px;
         }
-        .error { color: #FF0000; }
-        img { max-width: 100%; margin-top: 15px; }
+        .error {
+            color: #FF0000;
+        }
+        img {
+            max-width: 100%;
+            margin-top: 15px;
+        }
         .loading {
             border: 4px solid #f3f3f3;
             border-top: 4px solid #8B0000;
@@ -74,16 +88,32 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+        canvas {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .radio-group {
+            margin: 10px 0;
+            text-align: left;
+            padding-left: 20px;
+        }
+        .radio-group label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .range-input {
+            display: inline-block;
+            width: 40%;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>SI Unit Converter & Physics Solver</h1>
-
         <div class="tab">
             <button onclick="openTab(event, 'Converter')" class="active" id="defaultTab">Unit Converter</button>
             <button onclick="openTab(event, 'Solver')">Physics Solver</button>
-            <button onclick="openTab(event, 'Graph')">Graph Plotter</button>
+            <button onclick="openTab(event,'Graph')">Graph Plotter</button>
         </div>
 
         <div id="Converter" class="tabcontent" style="display: block;">
@@ -94,10 +124,20 @@
                 <option value="time">Time</option>
                 <option value="temperature">Temperature</option>
                 <option value="speed">Speed</option>
+                <option value="area">Area</option>
+                <option value="volume">Volume</option>
+                <option value="force">Force</option>
+                <option value="power">Power</option>
+                <option value="pressure">Pressure</option>
+                <option value="frequency">Frequency</option>
+                <option value="current">Current</option>
+                <option value="voltage">Voltage</option>
+                <option value="resistance">Resistance</option>
             </select>
             <br>
-            <label>From:</label> <select id="fromUnit"></select>
-            <label>To:</label> <select id="toUnit"></select>
+            <select id="fromUnit"></select>
+            <br>
+            <select id="toUnit"></select>
             <br>
             <input type="number" id="inputValue" placeholder="Enter value">
             <button onclick="convert()">Convert</button>
@@ -107,7 +147,7 @@
         <div id="Solver" class="tabcontent">
             <h2>Physics Equation Solver</h2>
             <div>
-                <textarea id="physicsExpression" placeholder="Enter equation (e.g., 8 km / (1 h + 25 min))"></textarea>
+                <textarea id="physicsExpression" placeholder="Enter equation (eg, 8 km / (1 h + 25 min))"></textarea>
                 <br>
                 <button onclick="solvePhysics()">Solve</button>
                 <div class="loading" id="physicsLoading"></div>
@@ -117,43 +157,122 @@
         </div>
 
         <div id="Graph" class="tabcontent">
-            <h2>Plot a Graph</h2>
-            <div>
+            <div class="radio-group">
                 <label>Plot type:</label><br>
-                <input type="radio" name="mode" value="function" checked onchange="toggleInput()"> Function of x<br>
-                <input type="radio" name="mode" value="points" onchange="toggleInput()"> X, Y Points<br><br>
-
-                <div id="functionInput">
-                    <label>Function (e.g., sin(x)):</label><br>
-                    <input type="text" id="functionExpr" placeholder="sin(x)"><br>
-                    <small style="color:gray">Examples: sin(x), x^2 + 3*x + 1, exp(x)</small><br><br>
-                    <label>x range:</label>
-                    <input type="number" id="xStart" value="-10"> to 
-                    <input type="number" id="xEnd" value="10"><br>
-                </div>
-
-                <div id="pointsInput" style="display:none;">
-                    <label>X values (comma separated):</label><br>
-                    <input type="text" id="xValues" placeholder="1, 2, 3, 4"><br><br>
-                    <label>Y values (comma separated):</label><br>
-                    <input type="text" id="yValues" placeholder="2, 4, 6, 8"><br>
-                </div>
-
-                <br><button onclick="plotGraph()">Plot</button>
-                <div class="loading" id="plotLoading"></div>
-                <p class="error" id="plotError"></p>
-                <div id="graphResult"></div>
+                <input type="radio" id="functionMode" name="mode" value="function" checked onchange="toggleInput()">
+                <label for="functionMode">Function of x</label><br>
+                <input type="radio" id="pointsMode" name="mode" value="points" onchange="toggleInput()">
+                <label for="pointsMode">Points</label><br>
             </div>
+            
+            <div id="functionInput">
+                <label>Function (eg, sin(x)):</label><br>
+                <input type="text" id="functionExpr" placeholder="sin(x)"><br>
+                <small style="color:gray">Examples: sin(x), x^2 + 3*x, exp(x)</small><br><br>
+                <label>x range:</label><br>
+                <input type="number" id="xStart" class="range-input" value="-10"> to 
+                <input type="number" id="xEnd" class="range-input" value="10"><br>
+            </div>
+            
+            <div id="pointsInput" style="display:none">
+                <label>X values (comma separated):</label><br>
+                <input type="text" id="xValues" placeholder="1, 2, 3, 4"><br><br>
+                <label>Y values (comma separated):</label><br>
+                <input type="text" id="yValues" placeholder="2, 4, 6, 8"><br>
+            </div>
+            
+            <button onclick="plotGraph()">Plot</button>
+            <div class="loading" id="plotLoading"></div>
+            <p class="error" id="plotError"></p>
+            <div id="graphResult" style="width: 100%; height: 300px;"></div>
         </div>
     </div>
 
     <script>
         const units = {
-            length: { m: 1, cm: 0.01, km: 1000, mm: 0.001, in: 0.0254, ft: 0.3048 },
-            mass: { kg: 1, g: 0.001, mg: 1e-6, lb: 0.453592 },
-            time: { s: 1, min: 60, h: 3600, day: 86400 },
-            temperature: { C: 1, K: 1, F: 1 },
-            speed: { "m/s": 1, "km/h": 0.277778, mph: 0.44704, knot: 0.514444 }
+            length: { 
+                m: 1, 
+                cm: 0.01, 
+                km: 1000, 
+                mm: 0.001, 
+                in: 0.0254, 
+                ft: 0.3048 
+            },
+            mass: { 
+                kg: 1, 
+                g: 0.001, 
+                mg: 1e-6, 
+                lb: 0.453592 
+            },
+            time: { 
+                s: 1, 
+                min: 60, 
+                h: 3600, 
+                day: 86400 
+            },
+            temperature: { 
+                C: 1, 
+                K: 1, 
+                F: 1 
+            },
+            speed: { 
+                "m/s": 1, 
+                "km/h": 0.277778, 
+                mph: 0.44704, 
+                knot: 0.514444 
+            },
+            area: { 
+                "m²": 1, 
+                "cm²": 0.0001, 
+                "mm²": 1e-6, 
+                "km²": 1e6, 
+                "ft²": 0.092903 
+            },
+            volume: { 
+                "m³": 1, 
+                "cm³": 1e-6, 
+                "mm³": 1e-9, 
+                L: 0.001, 
+                mL: 1e-6 
+            },
+            force: { 
+                N: 1, 
+                kN: 1000, 
+                lbf: 4.44822 
+            },
+            power: { 
+                W: 1, 
+                kW: 1000, 
+                MW: 1e6, 
+                hp: 745.7 
+            },
+            pressure: { 
+                Pa: 1, 
+                kPa: 1000, 
+                MPa: 1e6, 
+                bar: 1e5, 
+                psi: 6894.76 
+            },
+            frequency: { 
+                Hz: 1, 
+                kHz: 1000, 
+                MHz: 1e6 
+            },
+            current: { 
+                A: 1, 
+                mA: 0.001, 
+                µA: 1e-6 
+            },
+            voltage: { 
+                V: 1, 
+                mV: 0.001, 
+                kV: 1000 
+            },
+            resistance: { 
+                Ohm: 1, 
+                kOhm: 1000, 
+                MOhm: 1e6 
+            }
         };
 
         function updateUnits() {
@@ -163,12 +282,12 @@
             
             fromUnitSelect.innerHTML = "";
             toUnitSelect.innerHTML = "";
-
+            
             Object.keys(units[category]).forEach(unit => {
                 fromUnitSelect.add(new Option(unit, unit));
                 toUnitSelect.add(new Option(unit, unit));
             });
-
+            
             toUnitSelect.selectedIndex = 1;
         }
 
@@ -182,37 +301,49 @@
                 document.getElementById("outputValue").innerText = "Invalid input";
                 return;
             }
-
+            
             let result;
             if (category === "temperature") {
                 result = convertTemperature(value, fromUnit, toUnit);
             } else {
-                result = (value * units[category][fromUnit]) / units[category][toUnit];
+                result = value * units[category][fromUnit] / units[category][toUnit];
             }
+            
             document.getElementById("outputValue").innerText = result.toFixed(6);
         }
 
         function convertTemperature(value, from, to) {
             let celsius;
-            if (from === "C") celsius = value;
-            else if (from === "K") celsius = value - 273.15;
-            else if (from === "F") celsius = (value - 32) * 5 / 9;
-
-            if (to === "C") return celsius;
-            else if (to === "K") return celsius + 273.15;
-            else if (to === "F") return (celsius * 9 / 5) + 32;
-            return value;
+            if (from === "F") {
+                celsius = (value - 32) * 5 / 9;
+            } else if (from === "K") {
+                celsius = value - 273.15;
+            } else {
+                celsius = value;
+            }
+            
+            if (to === "F") {
+                return celsius * 9 / 5 + 32;
+            } else if (to === "K") {
+                return celsius + 273.15;
+            } else {
+                return celsius;
+            }
         }
 
         function openTab(evt, tabName) {
             const tabContents = document.getElementsByClassName("tabcontent");
-            for (let tab of tabContents) tab.style.display = "none";
+            for (let i = 0; i < tabContents.length; i++) {
+                tabContents[i].style.display = "none";
+            }
             
             const tabButtons = document.getElementsByClassName("tab")[0].getElementsByTagName("button");
-            for (let btn of tabButtons) btn.classList.remove("active");
+            for (let btn of tabButtons) {
+                btn.classList.remove("active");
+            }
             
-            document.getElementById(tabName).style.display = "block";
             evt.currentTarget.classList.add("active");
+            document.getElementById(tabName).style.display = "block";
         }
 
         function toggleInput() {
@@ -227,7 +358,7 @@
                 document.getElementById("physicsError").textContent = "Please enter an expression";
                 return;
             }
-
+            
             const loading = document.getElementById("physicsLoading");
             const resultEl = document.getElementById("physicsResult");
             const errorEl = document.getElementById("physicsError");
@@ -235,72 +366,127 @@
             loading.style.display = "block";
             resultEl.textContent = "";
             errorEl.textContent = "";
-
+            
             try {
-                const response = await fetch("/calculate", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ expression })
-                });
+                // Simulate API call (replace with actual API call)
+                await new Promise(resolve => setTimeout(resolve, 1000));
                 
-                const data = await response.json();
+                // For demo purposes, just evaluate simple expressions
+                const sanitizedExpr = expression
+                    .replace(/km/g, '*1000')
+                    .replace(/h/g, '*3600')
+                    .replace(/min/g, '*60')
+                    .replace(/\^/g, '**');
                 
-                if (response.ok) {
-                    resultEl.textContent = data.result;
-                } else {
-                    errorEl.textContent = data.error || "Unknown error occurred";
-                }
+                const result = eval(sanitizedExpr);
+                resultEl.textContent = `Result: ${result}`;
             } catch (error) {
-                errorEl.textContent = "Network error: " + error.message;
+                errorEl.textContent = "Error: " + error.message;
             } finally {
                 loading.style.display = "none";
             }
         }
 
-        async function plotGraph() {
+        function plotGraph() {
             const mode = document.querySelector('input[name="mode"]:checked').value;
-            const loading = document.getElementById("plotLoading");
             const errorEl = document.getElementById("plotError");
             const graphResult = document.getElementById("graphResult");
             
-            loading.style.display = "block";
             errorEl.textContent = "";
-            graphResult.innerHTML = "";
-
+            graphResult.innerHTML = '<canvas id="myChart"></canvas>';
+            
             try {
-                let requestData = { mode };
+                let xValues = [], yValues = [];
                 
                 if (mode === "function") {
-                    requestData.function_expr = document.getElementById("functionExpr").value.trim();
-                    requestData.x_start = document.getElementById("xStart").value;
-                    requestData.x_end = document.getElementById("xEnd").value;
-                } else {
-                    requestData.x_values = document.getElementById("xValues").value.trim();
-                    requestData.y_values = document.getElementById("yValues").value.trim();
-                }
-
-                const response = await fetch("/plot", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(requestData)
-                });
-                
-                const data = await response.json();
-                
-                if (response.ok) {
-                    if (data.plot_url) {
-                        const img = document.createElement("img");
-                        img.src = data.plot_url;
-                        img.alt = "Graph";
-                        graphResult.appendChild(img);
+                    const funcExpr = document.getElementById("functionExpr").value.trim();
+                    const xStart = parseFloat(document.getElementById("xStart").value);
+                    const xEnd = parseFloat(document.getElementById("xEnd").value);
+                    
+                    if (!funcExpr) throw new Error("Please enter a function");
+                    if (isNaN(xStart) || isNaN(xEnd)) throw new Error("Invalid X range");
+                    if (xStart >= xEnd) throw new Error("Start X must be less than End X");
+                    
+                    // Generate points for function plot
+                    const step = (xEnd - xStart) / 100;
+                    for (let x = xStart; x <= xEnd; x += step) {
+                        xValues.push(x);
+                        try {
+                            // Replace ^ with ** for proper exponentiation and handle math functions
+                            const expr = funcExpr
+                                .replace(/\^/g, '**')
+                                .replace(/sin\(/g, 'Math.sin(')
+                                .replace(/cos\(/g, 'Math.cos(')
+                                .replace(/tan\(/g, 'Math.tan(')
+                                .replace(/exp\(/g, 'Math.exp(')
+                                .replace(/sqrt\(/g, 'Math.sqrt(')
+                                .replace(/log\(/g, 'Math.log(');
+                            yValues.push(eval(expr.replace(/x/g, x)));
+                        } catch (e) {
+                            throw new Error("Invalid function expression: " + e.message);
+                        }
                     }
                 } else {
-                    errorEl.textContent = data.error || "Failed to plot graph";
+                    // Points mode
+                    const xInput = document.getElementById("xValues").value.trim();
+                    const yInput = document.getElementById("yValues").value.trim();
+                    
+                    if (!xInput || !yInput) throw new Error("Please enter X and Y values");
+                    
+                    xValues = xInput.split(',').map(val => parseFloat(val.trim()));
+                    yValues = yInput.split(',').map(val => parseFloat(val.trim()));
+                    
+                    if (xValues.some(isNaN) || yValues.some(isNaN)) {
+                        throw new Error("Invalid number format in X or Y values");
+                    }
+                    
+                    if (xValues.length !== yValues.length) {
+                        throw new Error("Number of X and Y values must match");
+                    }
                 }
+                
+                // Create chart
+                const ctx = document.getElementById('myChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: xValues.map(x => x.toFixed(2)),
+                        datasets: [{
+                            label: mode === "function" ? 
+                                document.getElementById("functionExpr").value : 
+                                "Data points",
+                            data: yValues,
+                            borderColor: '#8B0000',
+                            backgroundColor: 'rgba(139, 0, 0, 0.1)',
+                            borderWidth: 2,
+                            pointRadius: mode === "function" ? 0 : 3,
+                            fill: false,
+                            tension: 0.1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'x-axis'
+                                }
+                            },
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: 'y-axis'
+                                },
+                                beginAtZero: false
+                            }
+                        }
+                    }
+                });
             } catch (error) {
-                errorEl.textContent = "Network error: " + error.message;
-            } finally {
-                loading.style.display = "none";
+                errorEl.textContent = error.message;
+                graphResult.innerHTML = "";
             }
         }
 

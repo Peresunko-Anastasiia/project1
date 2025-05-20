@@ -1,0 +1,179 @@
+2025-05-09 00:15:22,410 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 00:15:22,410 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 00:15:22,413 - INFO -  * Restarting with stat
+2025-05-09 00:15:23,261 - WARNING -  * Debugger is active!
+2025-05-09 00:15:23,262 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:15:44,759 - INFO - 127.0.0.1 - - [09/May/2025 00:15:44] "GET / HTTP/1.1" 200 -
+2025-05-09 00:15:44,871 - INFO - 127.0.0.1 - - [09/May/2025 00:15:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-09 00:15:45,018 - INFO - 127.0.0.1 - - [09/May/2025 00:15:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-09 00:28:40,054 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 00:28:40,055 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 00:28:40,056 - INFO -  * Restarting with stat
+2025-05-09 00:28:40,870 - WARNING -  * Debugger is active!
+2025-05-09 00:28:40,875 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:30:38,557 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:30:38,639 - INFO -  * Restarting with stat
+2025-05-09 00:30:39,482 - WARNING -  * Debugger is active!
+2025-05-09 00:30:39,497 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:30:41,525 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:30:41,623 - INFO -  * Restarting with stat
+2025-05-09 00:30:42,463 - WARNING -  * Debugger is active!
+2025-05-09 00:30:42,468 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:30:51,706 - INFO - 127.0.0.1 - - [09/May/2025 00:30:51] "GET / HTTP/1.1" 200 -
+2025-05-09 00:30:51,802 - INFO - 127.0.0.1 - - [09/May/2025 00:30:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-09 00:31:04,609 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:31:04,706 - INFO -  * Restarting with stat
+2025-05-09 00:31:05,546 - WARNING -  * Debugger is active!
+2025-05-09 00:31:05,550 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:31:08,639 - INFO - 127.0.0.1 - - [09/May/2025 00:31:08] "GET / HTTP/1.1" 200 -
+2025-05-09 00:31:08,738 - INFO - 127.0.0.1 - - [09/May/2025 00:31:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-09 00:34:36,707 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:34:36,845 - INFO -  * Restarting with stat
+2025-05-09 00:34:37,747 - WARNING -  * Debugger is active!
+2025-05-09 00:34:37,751 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:35:08,044 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 00:35:08,044 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 00:35:08,046 - INFO -  * Restarting with stat
+2025-05-09 00:35:08,889 - WARNING -  * Debugger is active!
+2025-05-09 00:35:08,895 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:35:12,793 - INFO - 127.0.0.1 - - [09/May/2025 00:35:12] "GET / HTTP/1.1" 200 -
+2025-05-09 00:35:12,889 - INFO - 127.0.0.1 - - [09/May/2025 00:35:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-09 00:42:18,273 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:42:18,370 - INFO -  * Restarting with stat
+2025-05-09 00:42:19,229 - WARNING -  * Debugger is active!
+2025-05-09 00:42:19,233 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:42:52,441 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:42:52,561 - INFO -  * Restarting with stat
+2025-05-09 00:42:53,414 - WARNING -  * Debugger is active!
+2025-05-09 00:42:53,418 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:43:02,287 - INFO - 127.0.0.1 - - [09/May/2025 00:43:02] "GET / HTTP/1.1" 200 -
+2025-05-09 00:43:02,387 - INFO - 127.0.0.1 - - [09/May/2025 00:43:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-09 00:44:14,886 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:44:14,980 - INFO -  * Restarting with stat
+2025-05-09 00:44:15,873 - WARNING -  * Debugger is active!
+2025-05-09 00:44:15,877 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:44:19,395 - INFO - Removed old plot file: 0ecf2a92970a461398d03b36e773d8af.png
+2025-05-09 00:44:19,395 - INFO - Removed old plot file: c7741fe153c544afafa4817c90b9d297.png
+2025-05-09 00:44:19,395 - INFO - Removed old plot file: d98039e501d84530b93cd9746a2c60c8.png
+2025-05-09 00:44:19,395 - INFO - Plot created successfully: static/plots\ef88ce76c1844b89868171a4cf9fa2f7.png
+2025-05-09 00:44:22,568 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 00:44:22,568 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 00:44:22,568 - INFO -  * Restarting with stat
+2025-05-09 00:44:23,397 - WARNING -  * Debugger is active!
+2025-05-09 00:44:23,416 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:47:18,371 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:47:18,470 - INFO -  * Restarting with stat
+2025-05-09 00:47:19,319 - WARNING -  * Debugger is active!
+2025-05-09 00:47:19,323 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:47:20,346 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:47:20,451 - INFO -  * Restarting with stat
+2025-05-09 00:47:21,286 - WARNING -  * Debugger is active!
+2025-05-09 00:47:21,291 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:52:43,887 - INFO - 127.0.0.1 - - [09/May/2025 00:52:43] "GET / HTTP/1.1" 200 -
+2025-05-09 00:52:56,076 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:52:56,155 - INFO -  * Restarting with stat
+2025-05-09 00:52:56,989 - WARNING -  * Debugger is active!
+2025-05-09 00:52:56,999 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:53:04,054 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:53:04,150 - INFO -  * Restarting with stat
+2025-05-09 00:53:04,994 - WARNING -  * Debugger is active!
+2025-05-09 00:53:05,000 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:53:06,030 - INFO -  * Detected change in 'c:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 00:53:06,118 - INFO -  * Restarting with stat
+2025-05-09 00:53:08,078 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 00:53:08,078 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 00:53:08,079 - INFO -  * Restarting with stat
+2025-05-09 00:53:08,908 - WARNING -  * Debugger is active!
+2025-05-09 00:53:08,908 - INFO -  * Debugger PIN: 815-900-523
+2025-05-09 00:53:49,783 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 00:53:49,784 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 00:53:49,785 - INFO -  * Restarting with stat
+2025-05-09 00:53:50,618 - WARNING -  * Debugger is active!
+2025-05-09 00:53:50,622 - INFO -  * Debugger PIN: 216-504-428
+2025-05-09 00:54:01,333 - INFO - 127.0.0.1 - - [09/May/2025 00:54:01] "GET / HTTP/1.1" 200 -
+2025-05-09 00:54:03,021 - INFO - 127.0.0.1 - - [09/May/2025 00:54:03] "GET / HTTP/1.1" 200 -
+2025-05-09 00:54:03,870 - INFO - 127.0.0.1 - - [09/May/2025 00:54:03] "GET / HTTP/1.1" 200 -
+2025-05-09 00:54:12,632 - INFO - 127.0.0.1 - - [09/May/2025 00:54:12] "GET / HTTP/1.1" 200 -
+2025-05-09 00:56:04,059 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 00:56:04,059 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 00:56:04,061 - INFO -  * Restarting with stat
+2025-05-09 00:56:04,899 - WARNING -  * Debugger is active!
+2025-05-09 00:56:04,908 - INFO -  * Debugger PIN: 216-504-428
+2025-05-09 00:56:53,972 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 00:56:53,972 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 00:56:53,990 - INFO -  * Restarting with stat
+2025-05-09 00:56:56,209 - WARNING -  * Debugger is active!
+2025-05-09 00:56:56,212 - INFO -  * Debugger PIN: 216-504-428
+2025-05-09 00:56:59,573 - INFO - 127.0.0.1 - - [09/May/2025 00:56:59] "GET / HTTP/1.1" 200 -
+2025-05-09 09:37:19,957 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 09:37:19,961 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 09:37:19,967 - INFO -  * Restarting with stat
+2025-05-09 09:37:23,717 - WARNING -  * Debugger is active!
+2025-05-09 09:37:23,725 - INFO -  * Debugger PIN: 216-504-428
+2025-05-09 09:37:26,623 - INFO - 127.0.0.1 - - [09/May/2025 09:37:26] "GET / HTTP/1.1" 200 -
+2025-05-09 09:37:33,319 - INFO - 127.0.0.1 - - [09/May/2025 09:37:33] "[31m[1mPOST /plot HTTP/1.1[0m" 400 -
+2025-05-09 09:37:45,814 - INFO - Removed old plot file: 4e64f9cf7a6d407994b516c513071a0a.png
+2025-05-09 09:37:45,814 - INFO - 127.0.0.1 - - [09/May/2025 09:37:45] "POST /plot HTTP/1.1" 200 -
+2025-05-09 09:41:38,940 - INFO - 127.0.0.1 - - [09/May/2025 09:41:38] "GET / HTTP/1.1" 200 -
+2025-05-09 09:41:57,465 - INFO - 127.0.0.1 - - [09/May/2025 09:41:57] "GET / HTTP/1.1" 200 -
+2025-05-09 09:42:06,415 - INFO - 127.0.0.1 - - [09/May/2025 09:42:06] "GET / HTTP/1.1" 200 -
+2025-05-09 09:42:13,277 - INFO - 127.0.0.1 - - [09/May/2025 09:42:13] "[31m[1mPOST /plot HTTP/1.1[0m" 400 -
+2025-05-09 22:43:54,004 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 22:43:54,004 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 22:43:54,004 - INFO -  * Restarting with stat
+2025-05-09 22:43:56,064 - WARNING -  * Debugger is active!
+2025-05-09 22:43:56,070 - INFO -  * Debugger PIN: 216-504-428
+2025-05-09 22:43:59,954 - INFO - 127.0.0.1 - - [09/May/2025 22:43:59] "GET / HTTP/1.1" 200 -
+2025-05-09 22:56:53,112 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 22:56:53,112 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 22:56:53,112 - INFO -  * Restarting with stat
+2025-05-09 22:56:55,154 - WARNING -  * Debugger is active!
+2025-05-09 22:56:55,162 - INFO -  * Debugger PIN: 216-504-428
+2025-05-09 22:56:58,613 - INFO - 127.0.0.1 - - [09/May/2025 22:56:58] "GET / HTTP/1.1" 200 -
+2025-05-09 22:57:05,968 - INFO - 127.0.0.1 - - [09/May/2025 22:57:05] "GET / HTTP/1.1" 200 -
+2025-05-09 22:57:14,894 - INFO - 127.0.0.1 - - [09/May/2025 22:57:14] "GET / HTTP/1.1" 200 -
+2025-05-09 23:05:59,390 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 23:05:59,390 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 23:05:59,390 - INFO -  * Restarting with stat
+2025-05-09 23:06:01,502 - WARNING -  * Debugger is active!
+2025-05-09 23:06:01,505 - INFO -  * Debugger PIN: 216-504-428
+2025-05-09 23:06:19,166 - INFO - 127.0.0.1 - - [09/May/2025 23:06:19] "GET / HTTP/1.1" 200 -
+2025-05-09 23:06:25,348 - INFO - Removed old plot file: 932bbb85095a480aa2355dfe9376c508.png
+2025-05-09 23:06:25,348 - INFO - 127.0.0.1 - - [09/May/2025 23:06:25] "POST /plot HTTP/1.1" 200 -
+2025-05-09 23:06:25,431 - INFO - 127.0.0.1 - - [09/May/2025 23:06:25] "GET /static/plots/46945271a91a4ff1a8feab6b0fda1e1e.png HTTP/1.1" 200 -
+2025-05-09 23:12:52,945 - INFO - 127.0.0.1 - - [09/May/2025 23:12:52] "GET / HTTP/1.1" 200 -
+2025-05-09 23:52:12,197 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 23:52:12,229 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-09 23:56:55,170 - INFO -  * Restarting with stat
+2025-05-10 00:03:00,309 - INFO -  * Restarting with stat
+2025-05-10 00:04:32,319 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 00:04:32,319 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 00:04:32,320 - INFO -  * Restarting with stat
+2025-05-10 00:04:34,418 - WARNING -  * Debugger is active!
+2025-05-10 00:04:34,426 - INFO -  * Debugger PIN: 216-504-428
+2025-05-10 00:10:30,008 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\calculator\\app.py', reloading
+2025-05-11 19:11:05,939 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 19:11:05,939 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 19:11:05,939 - INFO -  * Restarting with stat
+2025-05-11 19:11:06,758 - WARNING -  * Debugger is active!
+2025-05-11 19:11:06,775 - INFO -  * Debugger PIN: 216-504-428
+2025-05-16 23:31:48,353 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-16 23:31:48,354 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-16 23:31:48,356 - INFO -  * Restarting with stat
+2025-05-16 23:31:49,205 - WARNING -  * Debugger is active!
+2025-05-16 23:31:49,214 - INFO -  * Debugger PIN: 216-504-428
